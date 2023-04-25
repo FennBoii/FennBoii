@@ -8,7 +8,7 @@
 FennBoii/FennBoii is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-    [About me]
+    #About me
 Hey, I'm FennBoii but I usually go by Fennec and my real name is 'Nathan'.
 I'm all over the place but I don't bite so if you want me to do anything for you just ask and I'll try my best to help you!
 - I honestly dont have a lot of connections so that makes me some kind of loner without a lover, im also ***Asexual*** with a cold heart, you should keep that im mind (DONT DATE ME ILL LEAVE YOU NUMB, COLD, AND CONFUSED)
