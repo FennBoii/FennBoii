@@ -1,0 +1,1159 @@
+/* This is for your profile title name */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>section>div.container-YkUktl>div.avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L>div.nameTag-sc-gpq.canCopy-IgTwyV>div.defaultColor-1EVLSt.text-sm-normal-AEQz4v.usernameContainer-3PPkWq>div {
+    transition: 0.3s all;
+    color: #ff00ff;
+}
+
+/* This is for your profile under custom status */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>section>div.container-YkUktl>div.avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L>div.nameTag-sc-gpq.canCopy-IgTwyV>div.text-xs-normal-3O7EaX.subtext-2HDqJ7>div>div.default-rFvAvS>div {
+    transition: 0.3s all;
+    color: rgb(3, 211, 37);
+}
+
+#channels>ul>li:nth-child(3) {
+    background-color: #6000ff;
+}
+
+#body {
+    transition: 0.7s all;
+}
+
+/* This is for your hovered userID tag */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>section>div.container-YkUktl>div.avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L>div.nameTag-sc-gpq.canCopy-IgTwyV>div.text-xs-normal-3O7EaX.subtext-2HDqJ7>div>div.hovered-20u3oh {
+    transition: 0.3s all;
+    color: #791f79;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div:nth-child(3)>div.layer-fP3xEz>div>div>div>div>div.userProfileModalOverlayBackground-2dAaBg.overlayBackground-2aa7wt>div>div.tabBarContainer-sCZC4w>div>div:nth-child(2):active {
+    color: red;
+    left: auto;
+}
+
+/* This is the color for the side of where the user profile on the right is */
+.overlayBackground-2aa7wt {
+    color: #eb0000;
+    border-radius: 10px;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+
+div.customStatus-1KW6v {
+    color: rgb(0, 255, 0);
+}
+
+.userPanelOverlayBackground-3Zmcq2_overlayBackground-2aa7wt {
+    color: yellow;
+}
+
+/* This is for your hovered userID Element */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>section>div.container-YkUktl>div.avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L {
+    transition: 0.3s all;
+    border-color: #0084ff;
+    border-radius: 10px;
+    border: 3px solid;
+    overflow: hidden;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>section>div.container-YkUktl>div.avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L:hover {
+    transition: 0.3s all;
+    background-color: #0084ff;
+    border-radius: 10px;
+    border: 3px solid;
+    overflow: hidden;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>section>div.container-YkUktl>div.avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L:active {
+    transition: 0.3s all;
+    background-color: #0084ff;
+    border-radius: 10px;
+    border: 4px solid;
+    overflow: hidden;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div:nth-child(3)>div.layer-fP3xEz>div>div>div>div>div.userProfileModalOverlayBackground-2dAaBg.overlayBackground-2aa7wt>div>div.container-3g15px>div:nth-child(3)>div>div {
+    background-color: #00000071;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div:nth-child(3)>div.layer-fP3xEz>div>div>div>div>div.userProfileModalOverlayBackground-2dAaBg.overlayBackground-2aa7wt>div>div.container-3g15px {
+    z-index: 20001;
+}
+
+.body-1Ukv50 {
+    display: flex;
+    flex: max-content;
+}
+
+.overlayBackground-2aa7wt {
+    background-color: rgba(0, 0, 0, 0.596);
+}
+
+/* ------------------------------------------------------------------- */
+
+.userTagUsernameBase-267ALn::after {
+    color: white;
+    content: " //";
+}
+
+.userTagUsernameBase-267ALn {
+    font: 800 40px Arial;
+    /* padding-left: 20px; */
+    font-style: italic;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px;
+    font-weight: bold;
+    color: white;
+    animation: switchColor;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    width: 655px;
+    margin: auto;
+}
+
+.discriminator-hnHkyt {
+    font: 800 40px Arial;
+    /* padding-left: 20px; */
+    font-style: italic;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px;
+    font-weight: bold;
+    color: white;
+    animation: switchColor;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    width: 655px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@keyframes switchColor {
+    7.14% {
+        text-shadow: 1px 1px rgb(255, 0, 0);
+    }
+
+    14.28% {
+        text-shadow: 2px 2px rgb(255, 175, 0);
+    }
+
+    21.42% {
+        text-shadow: 2px 2px rgb(255, 255, 0);
+    }
+
+    28.56% {
+        text-shadow: 2px 2px rgb(0, 255, 0);
+    }
+
+    35.7% {
+        text-shadow: 2px 2px rgb(0, 0, 255);
+    }
+
+    42.84% {
+        text-shadow: 3px 3px rgb(111, 0, 255);
+    }
+
+    49.98% {
+        text-shadow: 3px 3px rgb(234, 0, 255);
+    }
+
+    57.12% {
+        text-shadow: 3px 3px rgb(255, 0, 0);
+    }
+
+    64.26% {
+        text-shadow: 3px 3px rgb(255, 175, 0);
+    }
+
+    71.4% {
+        text-shadow: 2px 2px rgb(255, 255, 0);
+    }
+
+    78.54% {
+        text-shadow: 2px 2px rgb(0, 255, 0);
+    }
+
+    85.68% {
+        text-shadow: 2px 2px rgb(0, 0, 255);
+    }
+
+    92.82% {
+        text-shadow: 2px 2px rgb(111, 0, 255);
+    }
+
+    100% {
+        text-shadow: 2px 2px rgb(234, 0, 255);
+    }
+}
+
+.defaultColor-1EVLSt {
+    color: #008cff;
+    text-shadow: 1.5px 1.5px 1px black;
+}
+
+.customStatus-19KW6v {
+    box-sizing: border-box;
+    width: 100%;
+    overflow-wrap: break-word;
+    font-size: 14px;
+    line-height: 18px;
+    color: purple;
+    text-shadow: 1px 1px purple;
+    position: relative;
+}
+
+/* This is the border and color for the bio of users */
+.markup-eYLPri {
+    background-color: #000000;
+    color: #ff0000;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-color: #8c00ff;
+    font-weight: 900;
+}
+
+.markup-eYLPri.div {
+    color: yellow;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil>div>div.placeholder-1rCBhr.slateTextArea-27tjG0.fontSize16Padding-XoMpjI {
+    color: #00ff40;
+    left: auto;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.chat-2ZfjoI > div.content-1jQy2l > main > form > div > div > div > div.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil:hover) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil>div>div.placeholder-1rCBhr.slateTextArea-27tjG0.fontSize16Padding-XoMpjI {
+    animation: turnToBlueAndBack;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes turnToBlueAndBack {
+    0% {
+        transition: 1s;
+        color: #fbff00;
+    }
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil>div>div.markup-eYLPri.editor-H2NA06.slateTextArea-27tjG0.fontSize16Padding-XoMpjI {
+    color: #9900ff;
+    position: relative;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil>div>div.markup-eYLPri.editor-H2NA06.slateTextArea-27tjG0.fontSize16Padding-XoMpjI::before {
+    color: #00ffaa;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil>div {
+    background-color: #0084ff79;
+    border-radius: 20px;
+    left: 1px;
+}
+
+.username-h_Y3Us {
+    color: #0084ff;
+    background-color: #000000;
+    border-radius: 10px;
+    padding-inline: 10px;
+}
+
+#chat-messages {
+    background-color: #0084ff;
+    /* background-color: #0084ff8c; */
+}
+
+.username-h_Y3Us::after {
+    color: #0084ff;
+    background-color: #000000;
+    content: " -";
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div.channelTextArea-1FufC0.channelTextArea-1VQBuV>div {
+    position: relative;
+    background-color: #000000b0;
+}
+
+/* .header-2jRmjb {
+    background-color: #0084ff8c;
+    border-radius: 10px;
+} */
+
+
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.buttons-uaqb-5 {
+    background-color: #0084ff;
+    border-radius: 100px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div {
+    padding-right: 6px;
+    background-color: white;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.attachWrapper-3slhXI>button {
+    transition: 0.3s;
+    background-color: #0084ff79;
+    border-radius: 10px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.attachWrapper-3slhXI>button:hover {
+    background-color: #0f00dde8;
+    border-radius: 10px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.attachWrapper-3slhXI>button:active {
+    background-color: #8c00ff;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.attachWrapper-3slhXI>button {
+    border-radius: 100px;
+}
+
+.form-3gdLxP {
+    background-color: var(--background-primary);
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.buttons-uaqb-5>button>div {
+    background-color: #8c00ff;
+    border-radius: 10px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(3)>button>div {
+    background-color: #8c00ff;
+    border-radius: 10px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(4)>button>div {
+    background-color: #8c00ff;
+    border-radius: 10px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(1)>div>button>div {
+    background-color: #8c00ff63;
+    border-radius: 10px;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.chat-2ZfjoI > div.content-1jQy2l > main > form > div > div > div > div.attachWrapper-3slhXI > button > div:active) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.attachWrapper-3slhXI>button {
+    background-color: #8c00ff;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6)>div>a>div>div.avatar-1HDIsL>div>svg>rect {
+    position: relative;
+    display: flex;
+    left: 100px;
+    color: #00ff40;
+    background-color: #00ff40;
+    padding: 100px;
+}
+
+/* ------------------------------------------------------------------- */
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6)>div>a>div,
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(7)>div>a>div,
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(8)>div>a>div,
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(9)>div>a>div,
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(10)>div>a>div,
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(11)>div>a>div,
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(12)>div>a>div,
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(13)>div>a>div,
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(14)>div>a>div,
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(15)>div>a>div {
+    background-color: #4c00ff86;
+}
+
+#message-username-1102815552579305514>span,
+#span.username {
+    color: #ff0000;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul {
+    height: 20px;
+}
+
+/* Selection Hover Color */
+body:has(#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li>div) .interactiveSelected-29CP8y {
+    background-color: rgb(0, 204, 255);
+}
+
+/* Select top DM color */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>section>div.children-3xh0VB>div.titleWrapper-24Kyzc>h1 {
+    color: #d0ff00;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > section > div.container-YkUktl > div.avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L > div.wrapper-3Un6-K.avatar-1EWyVD > svg > foreignObject > div > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>nav>ul>div.scroller-3X7KbA.none-1rXy4P.scrollerBase-1Pkza4>div.tutorialContainer-1pL9QS>div>div.listItemWrapper-3d87LP>div>svg>foreignObject>div>div {
+    transition: 0.1s ease-in-out;
+    width: 90%;
+    height: 90%;
+    border-radius: 50px;
+    background-color: green;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(6) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6) {
+    animation: shake;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(7) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(7) {
+    animation: shake;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(8) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(8) {
+    animation: shake;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(9) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(9) {
+    animation: shake;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(10) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(10) {
+    animation: shake;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(11) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(11) {
+    animation: shake;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(12) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(12) {
+    animation: shake;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(13) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(13) {
+    animation: shake;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    0% {
+        background-color: #ff0000;
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    46% {
+        background-color: rgb(240, 178, 50);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    86% {
+        background-color: rgb(35, 165, 90);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > nav > ul > div.scroller-3X7KbA.none-1rXy4P.scrollerBase-1Pkza4 > div:nth-child(2) > div > div.listItemWrapper-3d87LP > div > svg > foreignObject) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.searchBar-3TnChZ {
+    background-color: #2bff00;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > nav > ul > div.scroller-3X7KbA.none-1rXy4P.scrollerBase-1Pkza4 > div:nth-child(3) > div > div.listItemWrapper-3d87LP > div > svg > foreignObject) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.searchBar-3TnChZ>button {
+    background-color: #28d30659;
+}
+
+
+/* ------------------------------------------------------------------- */
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>aside>div>div>div>div:nth-child(2)>div:nth-child(3)>div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#online-tab {
+    background-color: #0084ff79;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>div.messagesWrapper-RpOMA3.group-spacing-0>div>div {
+    background-color: #0084ff79;
+}
+
+/* body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > section > div.container-YkUktl > div.avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L > div.wrapper-3Un6-K.avatar-1EWyVD > svg > foreignObject > div > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6) {
+    background-color: #15ff00;
+} */
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>div.messagesWrapper-RpOMA3.group-spacing-0>div {
+    background-color: #ffffff;
+}
+
+/* ------------------------------------------------------------------- */
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6)>div>a {
+    flex: initial;
+}
+
+/* ---------------------FOR CLOSE HOVER DIV 6----------------------- */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6)>div>div {
+    margin: auto;
+    text-align: center;
+    /* width: 20px;
+    height: 38px; */
+    width: auto;
+    height: auto;
+    border-radius: 1px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6)>div>div>svg {
+    margin: 13px;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(7) > div > div:hover) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6)>div>a,
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6)>div {
+    background-color: #000000;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(7) > div > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6)>div:active {
+    background-color: rgb(255, 7, 7);
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(6) > div > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6)>div>div:active {
+    transition: 3s all;
+    background-color: rgb(255, 0, 0);
+    border-width: 200px;
+    width: 7000%;
+    margin-top: auto;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(6) > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6)>div:hover {
+    background-color: #fbff00a6;
+}
+
+/* This element is the hover for top DM */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6)>div {
+    transition: 0.3s all;
+    background-color: rgb(0, 0, 0);
+    color: #0084ff;
+    border: 5px solid;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6)>div:active {
+    transition: 0.3s all;
+    background-color: rgb(166, 255, 0);
+    color: #000000;
+    border: 5px solid;
+}
+
+/* This element is for the top DM padding size */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6) {
+    transition: 0.3s all;
+    border: 4px solid;
+    border-radius: 10px;
+    color: #000000;
+    padding: 5px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6):active {
+    transition: 0.1s all;
+    border: 4px solid;
+    background-color: #ff00ff;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6):active {
+    border: 4px solid;
+    color: #ff0000;
+    padding: 5px;
+}
+
+/* ------------------------------------------------------------------- */
+
+
+/* ---------------------FOR CLOSE HOVER DIV 7----------------------- */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(7)>div>div {
+    margin: auto;
+    text-align: center;
+    /* width: 20px;
+    height: 38px; */
+    width: auto;
+    height: auto;
+    border-radius: 1px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(7)>div>div>svg {
+    margin: 13px;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(7) > div > div:hover) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(7)>div>a,
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(7)>div {
+    background-color: #000000;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(7) > div > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(7)>div:active {
+    background-color: rgb(255, 7, 7);
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(7) > div > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(7)>div>div:active {
+    transition: 3s all;
+    background-color: rgb(255, 0, 0);
+    border-width: 200px;
+    width: 7000%;
+    margin-top: auto;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(7) > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(7)>div:hover {
+    background-color: #fbff00a6;
+}
+
+/* This element is the hover for top DM */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(7)>div {
+    transition: 0.3s all;
+    background-color: rgb(0, 0, 0);
+    color: #0084ff;
+    border: 5px solid;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(7)>div:active {
+    transition: 0.3s all;
+    background-color: rgb(166, 255, 0);
+    color: #000000;
+    border: 5px solid;
+}
+
+/* This element is for the top DM padding size */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(7) {
+    transition: 0.3s all;
+    border: 4px solid;
+    border-radius: 10px;
+    color: #000000;
+    padding: 5px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(7):active {
+    transition: 0.1s all;
+    border: 4px solid;
+    background-color: #ff00ff;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(7):active {
+    border: 4px solid;
+    color: #ff0000;
+    padding: 5px;
+}
+
+/* ------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------FOR CLOSE HOVER DIV 8----------------------- */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(8)>div>div {
+    margin: auto;
+    text-align: center;
+    /* width: 20px;
+    height: 38px; */
+    width: auto;
+    height: auto;
+    border-radius: 1px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(8)>div>div>svg {
+    margin: 13px;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(8) > div > div:hover) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(8)>div>a,
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(8)>div {
+    background-color: #000000;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(8) > div > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(8)>div:active {
+    background-color: rgb(255, 7, 7);
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(8) > div > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(8)>div>div:active {
+    transition: 3s all;
+    background-color: rgb(255, 0, 0);
+    border-width: 200px;
+    width: 7000%;
+    margin-top: auto;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(8) > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(8)>div:hover {
+    background-color: #fbff00a6;
+}
+
+/* This element is the hover for top DM */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(8)>div {
+    transition: 0.3s all;
+    background-color: rgb(0, 0, 0);
+    color: #0084ff;
+    border: 5px solid;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(8)>div:active {
+    transition: 0.3s all;
+    background-color: rgb(166, 255, 0);
+    color: #000000;
+    border: 5px solid;
+}
+
+/* This element is for the top DM padding size */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(8) {
+    transition: 0.3s all;
+    border: 4px solid;
+    border-radius: 10px;
+    color: #000000;
+    padding: 5px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(8):active {
+    transition: 0.1s all;
+    border: 4px solid;
+    background-color: #ff00ff;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(8):active {
+    border: 4px solid;
+    color: #ff0000;
+    padding: 5px;
+}
+
+/* ------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------FOR CLOSE HOVER DIV 9----------------------- */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(9)>div>div {
+    margin: auto;
+    text-align: center;
+    /* width: 20px;
+    height: 38px; */
+    width: auto;
+    height: auto;
+    border-radius: 1px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(9)>div>div>svg {
+    margin: 13px;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(9) > div > div:hover) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(9)>div>a,
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(9)>div {
+    background-color: #000000;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(9) > div > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(9)>div:active {
+    background-color: rgb(255, 7, 7);
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(9) > div > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(9)>div>div:active {
+    transition: 3s all;
+    background-color: rgb(255, 0, 0);
+    border-width: 200px;
+    width: 7000%;
+    margin-top: auto;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(9) > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(9)>div:hover {
+    background-color: #fbff00a6;
+}
+
+/* This element is the hover for top DM */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(9)>div {
+    transition: 0.3s all;
+    background-color: rgb(0, 0, 0);
+    color: #0084ff;
+    border: 5px solid;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(9)>div:active {
+    transition: 0.3s all;
+    background-color: rgb(166, 255, 0);
+    color: #000000;
+    border: 5px solid;
+}
+
+/* This element is for the top DM padding size */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(9) {
+    transition: 0.3s all;
+    border: 4px solid;
+    border-radius: 10px;
+    color: #000000;
+    padding: 5px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(9):active {
+    transition: 0.1s all;
+    border: 4px solid;
+    background-color: #ff00ff;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(9):active {
+    border: 4px solid;
+    color: #ff0000;
+    padding: 5px;
+}
+
+/* ------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------FOR CLOSE HOVER DIV 10----------------------- */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(10)>div>div {
+    margin: auto;
+    text-align: center;
+    /* width: 20px;
+    height: 38px; */
+    width: auto;
+    height: auto;
+    border-radius: 1px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(10)>div>div>svg {
+    margin: 13px;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(10) > div > div:hover) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(10)>div>a,
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(10)>div {
+    background-color: #000000;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(10) > div > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(10)>div:active {
+    background-color: rgb(255, 7, 7);
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(10) > div > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(10)>div>div:active {
+    transition: 3s all;
+    background-color: rgb(255, 0, 0);
+    border-width: 200px;
+    width: 7000%;
+    margin-top: auto;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(10) > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(10)>div:hover {
+    background-color: #fbff00a6;
+}
+
+/* This element is the hover for top DM */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(10)>div {
+    transition: 0.3s all;
+    background-color: rgb(0, 0, 0);
+    color: #0084ff;
+    border: 5px solid;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(10)>div:active {
+    transition: 0.3s all;
+    background-color: rgb(166, 255, 0);
+    color: #000000;
+    border: 5px solid;
+}
+
+/* This element is for the top DM padding size */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(10) {
+    transition: 0.3s all;
+    border: 4px solid;
+    border-radius: 10px;
+    color: #000000;
+    padding: 5px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(10):active {
+    transition: 0.1s all;
+    border: 4px solid;
+    background-color: #ff00ff;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(10):active {
+    border: 4px solid;
+    color: #ff0000;
+    padding: 5px;
+}
+
+/* ------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------FOR CLOSE HOVER DIV 11----------------------- */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(11)>div>div {
+    margin: auto;
+    text-align: center;
+    /* width: 20px;
+    height: 38px; */
+    width: auto;
+    height: auto;
+    border-radius: 1px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(11)>div>div>svg {
+    margin: 13px;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(11) > div > div:hover) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(11)>div>a,
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(11)>div {
+    background-color: #000000;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(11) > div > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(11)>div:active {
+    background-color: rgb(255, 7, 7);
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(11) > div > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(11)>div>div:active {
+    transition: 3s all;
+    background-color: rgb(255, 0, 0);
+    border-width: 200px;
+    width: 7000%;
+    margin-top: auto;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(11) > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(11)>div:hover {
+    background-color: #fbff00a6;
+}
+
+/* This element is the hover for top DM */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(11)>div {
+    transition: 0.3s all;
+    background-color: rgb(0, 0, 0);
+    color: #0084ff;
+    border: 5px solid;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(11)>div:active {
+    transition: 0.3s all;
+    background-color: rgb(166, 255, 0);
+    color: #000000;
+    border: 5px solid;
+}
+
+/* This element is for the top DM padding size */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(11) {
+    transition: 0.3s all;
+    border: 4px solid;
+    border-radius: 10px;
+    color: #000000;
+    padding: 5px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(11):active {
+    transition: 0.1s all;
+    border: 4px solid;
+    background-color: #ff00ff;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(11):active {
+    border: 4px solid;
+    color: #ff0000;
+    padding: 5px;
+}
+
+/* ------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------FOR CLOSE HOVER DIV 12----------------------- */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(12)>div>div {
+    margin: auto;
+    text-align: center;
+    /* width: 20px;
+    height: 38px; */
+    width: auto;
+    height: auto;
+    border-radius: 1px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(12)>div>div>svg {
+    margin: 13px;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(12) > div > div:hover) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(12)>div>a,
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(12)>div {
+    background-color: #000000;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(12) > div > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(12)>div:active {
+    background-color: rgb(255, 7, 7);
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(12) > div > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(12)>div>div:active {
+    transition: 3s all;
+    background-color: rgb(255, 0, 0);
+    border-width: 200px;
+    width: 7000%;
+    margin-top: auto;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(12) > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(12)>div:hover {
+    background-color: #fbff00a6;
+}
+
+/* This element is the hover for top DM */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(12)>div {
+    transition: 0.3s all;
+    background-color: rgb(0, 0, 0);
+    color: #0084ff;
+    border: 5px solid;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(12)>div:active {
+    transition: 0.3s all;
+    background-color: rgb(166, 255, 0);
+    color: #000000;
+    border: 5px solid;
+}
+
+/* This element is for the top DM padding size */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(12) {
+    transition: 0.3s all;
+    border: 4px solid;
+    border-radius: 10px;
+    color: #000000;
+    padding: 5px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(12):active {
+    transition: 0.1s all;
+    border: 4px solid;
+    background-color: #ff00ff;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(12):active {
+    border: 4px solid;
+    color: #ff0000;
+    padding: 5px;
+}
+
+/* ------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------FOR CLOSE HOVER DIV 13----------------------- */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(13)>div>div {
+    margin: auto;
+    text-align: center;
+    /* width: 20px;
+    height: 38px; */
+    width: auto;
+    height: auto;
+    border-radius: 1px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(13)>div>div>svg {
+    margin: 13px;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(13) > div > div:hover) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(13)>div>a,
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(13)>div {
+    background-color: #000000;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(13) > div > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(13)>div:active {
+    background-color: rgb(255, 7, 7);
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(13) > div > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(13)>div>div:active {
+    transition: 3s all;
+    background-color: rgb(255, 0, 0);
+    border-width: 200px;
+    width: 7000%;
+    margin-top: auto;
+}
+
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(13) > div) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(13)>div:hover {
+    background-color: #fbff00a6;
+}
+
+/* This element is the hover for top DM */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(13)>div {
+    transition: 0.3s all;
+    background-color: rgb(0, 0, 0);
+    color: #0084ff;
+    border: 5px solid;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(13)>div:active {
+    transition: 0.3s all;
+    background-color: rgb(166, 255, 0);
+    color: #000000;
+    border: 5px solid;
+}
+
+/* This element is for the top DM padding size */
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(13) {
+    transition: 0.3s all;
+    border: 4px solid;
+    border-radius: 10px;
+    color: #000000;
+    padding: 5px;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(13):active {
+    transition: 0.1s all;
+    border: 4px solid;
+    background-color: #ff00ff;
+}
+
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(13):active {
+    border: 4px solid;
+    color: #ff0000;
+    padding: 5px;
+}
+
+/* ------------------------------------------------------------------- */
