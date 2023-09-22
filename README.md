@@ -8,6 +8,8 @@
 FennBoii/FennBoii is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+https://img.shields.io/github/downloads/FennBoii/YTM-OP/1.0.5/total
+
 <h2>About me</h2>
 
 Hey, I'm FennBoii but I usually go by Fennec and my real name is 'Nathan'. I'm all over the place but I don't bite so if you want me to do anything for you just ask and I'll try my best to help you! I do a lot of hobby stuff and projects on the side involving unity and nodejs mostly. I'm open to talk about anything and open to meeting new people and talking infront if them, i'll be prepared and presentable.
