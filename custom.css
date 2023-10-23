@@ -309,15 +309,83 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     border-radius: 10px;
 }
 
-/* & Height of the Chat input */
+/* ^ Height of the Chat input */
 #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div {
     height: 25px;
 }
+
+
+
+#app-mount > div.appAsidePanelWrapper-VeklAl > div.notAppAsidePanel-1yXaPq > div:nth-child(4) > div.layer-fP3xEz > div > div > div > div > div > div.userProfileModalOverlayBackground-2dAaBg.overlayBackground-2aa7wt > div > div.listScroller-entkMk.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG
+{
+    height: auto;
+    align-items: stretch;
+    height: 40vh;
+    height: fit-content;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div:nth-child(4)>div.layer-fP3xEz>div>div>div>div>div>div.userProfileModalOverlayBackground-2dAaBg.overlayBackground-2aa7wt>div>div.listScroller-entkMk.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG {
+    padding: 10px;
+    overflow-y: auto;
+    max-height: 100vh;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div:nth-child(4)>div.layer-fP3xEz>div>div>div>div {
+    top: -5px;
+}
+
+
+/* #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div:nth-child(4)>div.layer-fP3xEz>div>div>div>div>div {
+    width: 90px;
+    height: 900px;
+} */
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div:nth-child(4)>div.layer-fP3xEz>div>div>div>div>div>div>div>div> {
+    top: -10px;
+    width: fit-content;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div:nth-child(4)>div.layer-fP3xEz>div>div>div {
+    width: fit-content;
+    height: fit-content;
+}
+
+
+
+
+
+
+
+
+
+#uid_17589 {
+    width: 530px;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div.container-3H3gr7>div.chatContainer-2XIz4Y>main>form>div>div.autocomplete-3NRXG8.outerWrapper-3UdjNj>div>div.scroller-2MALzE.list-2u03C-.thin-RnSY0a.scrollerBase-1Pkza4 {
+    max-height: 1000px;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div.container-3H3gr7>div.chatContainer-2XIz4Y>main>form>div>div.autocomplete-3NRXG8.autocomplete-3jLKbj.autocompleteAttached-bt_md- {
+    width: 40%;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div.container-3H3gr7>div.chatContainer-2XIz4Y>main>form>div>div.autocomplete-3NRXG8.outerWrapper-3UdjNj {
+    width: 600px;
+    height: 800px;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div.container-3H3gr7>div.chatContainer-2XIz4Y>main>form>div>div.autocomplete-3NRXG8.outerWrapper-3UdjNj>div {
+    width: 600px;
+    height: 800px;
+}
+
 
 /* ^ Buttons of Gift Discord, GIF, Sticker, and Emote */
 #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5 {
     /* background-color: #0084ff; */
     padding-right: 10px;
+    left: 10px;
 }
 
 #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>button {
@@ -334,46 +402,14 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     background-color: #8c00ff;
 }
 
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(2) {
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(n+1) {
     transition: 0.3s;
     background-color: #0084ff79;
     border-radius: 10px;
 }
 
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(2):hover {
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(n+1):hover {
     background-color: #0f00dde8;
-}
-
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(2):active {
-    background-color: #8c00ff;
-}
-
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(3) {
-    transition: 0.3s;
-    background-color: #0084ff79;
-    border-radius: 10px;
-}
-
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(3):hover {
-    background-color: #0f00dde8;
-}
-
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(3):active {
-    background-color: #8c00ff;
-}
-
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(4) {
-    transition: 0.3s;
-    background-color: #0084ff79;
-    border-radius: 10px;
-}
-
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(4):hover {
-    background-color: #0f00dde8;
-}
-
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(4):active {
-    background-color: #8c00ff;
 }
 
 .form-3gdLxP {
@@ -406,7 +442,7 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
 body::before,
 body::after {
     background-image: url('https://i.ibb.co/KGSyhR9/image-12.png');
-    content: "";
+    content: "owo";
     top: 0;
     left: 0;
     width: 100%;
@@ -460,7 +496,7 @@ body {
 
 #app-mount:not(:hover) {
     animation-delay: 0.9s;
-    animation: moveOutOfScreen 1s forwards 1, screenMAKE 4s 1s infinite;
+    animation: moveOutOfScreen 0.5s forwards 1, screenMAKE 15s 0.5s infinite;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
@@ -479,7 +515,7 @@ body {
     transform-style: preserve-3d;
     box-shadow: 20px 20px 20px rgba(255, 0, 0, 0.782);
     animation: screenMAKE 5s infinite;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     transition: transform 0.5s;
@@ -502,6 +538,10 @@ body {
     padding-top: 10px;
     background-color: #ffaa00;
     border-top-left-radius: 10px;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.uploadInput-YH_iku>div {
+    background-color: #00ff40;
 }
 
 #message-username-1102815552579305514>span,
@@ -538,56 +578,7 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     background-color: green;
 }
 
-body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(6) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6)>div {
-    animation: shake;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
-
-body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(7) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(7)>div {
-    animation: shake;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
-
-body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(8) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(8) {
-    animation: shake;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
-
-body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(9) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(9) {
-    animation: shake;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
-
-body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(10) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(10) {
-    animation: shake;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
-
-body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(11) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(11) {
-    animation: shake;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
-
-body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(12) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(12) {
-    animation: shake;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
-
-body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(13) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(13) {
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(n+2) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(n+2)>div {
     animation: shake;
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
@@ -600,7 +591,7 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     }
 
     20% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(0) translateY(-140px) translateZ(-6000px);
+        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(0) translateY(-940px) translateZ(-50000px);
     }
 
     100% {
@@ -615,7 +606,7 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     }
 
     5% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(0) translateY(-200px) translateZ(-600px);
+        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(0) translateY(0px) translateZ(-500px);
     }
 
     100% {
@@ -755,7 +746,7 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
 } */
 
 #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>div.messagesWrapper-RpOMA3.group-spacing-0>div {
-    background-color: #ffffff;
+    background-color: #c61e1e;
 }
 
 /* ------------------------------------------------------------------- */
@@ -779,6 +770,20 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
 
 #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(n+2)>div>div>svg {
     margin: 13px;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil>div>div.markup-eYLPri.editor-H2NA06.slateTextArea-27tjG0.fontSize16Padding-XoMpjI {
+    position: absolute;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    border-radius: 3px;
+    background-color: #0084ff;
+    height: fit-content;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div {
+    inline-size: fit-content;
+    height: fit-content;
 }
 
 body:has(#app-mount > div.appAsidePanelWrapper-VeklAl > div.notAppAsidePanel-1yXaPq > div.app-1BipOi > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(n+2)> div > div) #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(n+2)>div:active {
