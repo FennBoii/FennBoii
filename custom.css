@@ -1,32 +1,23 @@
 /* This is for your profile title name */
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>section>div.container-YkUktl>div.avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L>div.nameTag-sc-gpq.canCopy-IgTwyV>div.defaultColor-1EVLSt.text-sm-normal-AEQz4v.usernameContainer-3PPkWq>div {
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>section>div.container-1CH86i>div.avatarWrapper-12uuu4.withTagAsButton-2_JkHX>div.nameTag-2Q56-H.canCopy-rj-Am8>div.panelTitleContainer-12zYUy>div {
     transition: 0.3s all;
     color: #ff00ff;
 }
 
 /* This is for your profile under custom status */
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>section>div.container-YkUktl>div.avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L>div.nameTag-sc-gpq.canCopy-IgTwyV>div.text-xs-normal-3O7EaX.subtext-2HDqJ7>div>div.default-rFvAvS>div {
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>section>div.container-1CH86i>div.avatarWrapper-12uuu4.withTagAsButton-2_JkHX>div.nameTag-2Q56-H.canCopy-rj-Am8>div.panelSubtextContainer-30etH9>div>div {
     transition: 0.3s all;
     color: rgb(3, 211, 37);
 }
 
+/* The Top Color of a discord server channel */
 #channels>ul>li:nth-child(3) {
     background-color: #6000ff;
 }
 
+/* Everything gets transition lol (almost no effect) */
 #body {
-    transition: 0.7s all;
-}
-
-/* This is for your hovered userID tag */
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>section>div.container-YkUktl>div.avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L>div.nameTag-sc-gpq.canCopy-IgTwyV>div.text-xs-normal-3O7EaX.subtext-2HDqJ7>div>div.hovered-20u3oh {
-    transition: 0.3s all;
-    color: #791f79;
-}
-
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div:nth-child(3)>div.layer-fP3xEz>div>div>div>div>div.userProfileModalOverlayBackground-2dAaBg.overlayBackground-2aa7wt>div>div.tabBarContainer-sCZC4w>div>div:nth-child(2):active {
-    color: red;
-    left: auto;
+    transition: 4s all;
 }
 
 /* This is the color for the side of where the user profile on the right is */
@@ -98,6 +89,21 @@ div.customStatus-1KW6v {
     content: " //";
 }
 
+/* Jump to present bar background color */
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>div.messagesWrapper-RpOMA3.group-spacing-0>div.jumpToPresentBar-1cEnH0.barBase-3xxDXu {
+    background-color: rgb(0, 170, 255);
+}
+
+/* Below the send messages portion */
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form {
+    background-color: rgba(78, 211, 255, 0.359);
+}
+
+.form-3qe0Ni:before {
+    display: none;
+}
+
+/* Creates the rainbow name template for the element below */
 .userTagUsernameBase-267ALn {
     font: 800 40px Arial;
     /* padding-left: 20px; */
@@ -114,6 +120,7 @@ div.customStatus-1KW6v {
     margin: auto;
 }
 
+/* Loops the rainbow name element for the name with // */
 .discriminator-hnHkyt {
     font: 800 40px Arial;
     /* padding-left: 20px; */
@@ -132,6 +139,7 @@ div.customStatus-1KW6v {
     padding-bottom: 20px;
 }
 
+/* Rainbow flow color set of frames */
 @keyframes switchColor {
     7.14% {
         text-shadow: 1px 1px rgb(255, 0, 0);
@@ -190,11 +198,13 @@ div.customStatus-1KW6v {
     }
 }
 
+/* color for all lettering with peoples profile element */
 .defaultColor-1EVLSt {
     color: #008cff;
     text-shadow: 1.5px 1.5px 1px black;
 }
 
+/* color of the custom status */
 .customStatus-19KW6v {
     box-sizing: border-box;
     width: 100%;
@@ -219,11 +229,12 @@ div.customStatus-1KW6v {
     font-weight: 900;
 }
 
-.markup-eYLPri.div {
+/* potential to change the color of the words responses of messages
+.markup-eYLPri {
     color: yellow;
-}
+} */
 
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil>div>div.placeholder-1rCBhr.slateTextArea-27tjG0.fontSize16Padding-XoMpjI {
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil {
     color: #00ff40;
     left: auto;
 }
@@ -251,9 +262,10 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     color: #00ffaa;
 }
 
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil>div {
+/* background for your messages to people */
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>div.messagesWrapper-RpOMA3.group-spacing-0 {
     background-color: #0084ff79;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     left: 1px;
 }
 
@@ -264,81 +276,110 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     padding-inline: 10px;
 }
 
+/* The "-" That goes in-between name and text and the one below this one*/
 #chat-messages {
     background-color: #0084ff;
     /* background-color: #0084ff8c; */
 }
 
+/* ??? Wish this time element worked */
+/* .separator-AebOhG
+{
+    color: black;
+    border-color: #00ff40;
+    border-width: 20px;
+    content: " ←|";
+} */
+
 .username-h_Y3Us::after {
     color: #0084ff;
     background-color: #000000;
-    content: " -";
+    content: " |←──→";
 }
 
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div.channelTextArea-1FufC0.channelTextArea-1VQBuV>div {
-    position: relative;
-    background-color: #000000b0;
+.username-h_Y3Us::before {
+    color: #0084ff;
+    background-color: #000000;
+    content: "→| ";
 }
 
-/* .header-2jRmjb {
-    background-color: #0084ff8c;
+/* Behind the names in messages */
+.header-2jRmjb {
+    background-color: #ff00ffbf;
     border-radius: 10px;
-} */
-
-
-
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.buttons-uaqb-5 {
-    background-color: #0084ff;
-    border-radius: 100px;
 }
 
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div {
-    padding-right: 6px;
-    background-color: white;
+/* & Height of the Chat input */
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div {
+    height: 25px;
 }
 
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.attachWrapper-3slhXI>button {
+/* ^ Buttons of Gift Discord, GIF, Sticker, and Emote */
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5 {
+    /* background-color: #0084ff; */
+    padding-right: 10px;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>button {
     transition: 0.3s;
     background-color: #0084ff79;
     border-radius: 10px;
 }
 
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.attachWrapper-3slhXI>button:hover {
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>button:hover {
     background-color: #0f00dde8;
-    border-radius: 10px;
 }
 
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.attachWrapper-3slhXI>button:active {
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>button:active {
     background-color: #8c00ff;
 }
 
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.attachWrapper-3slhXI>button {
-    border-radius: 100px;
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(2) {
+    transition: 0.3s;
+    background-color: #0084ff79;
+    border-radius: 10px;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(2):hover {
+    background-color: #0f00dde8;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(2):active {
+    background-color: #8c00ff;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(3) {
+    transition: 0.3s;
+    background-color: #0084ff79;
+    border-radius: 10px;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(3):hover {
+    background-color: #0f00dde8;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(3):active {
+    background-color: #8c00ff;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(4) {
+    transition: 0.3s;
+    background-color: #0084ff79;
+    border-radius: 10px;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(4):hover {
+    background-color: #0f00dde8;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(4):active {
+    background-color: #8c00ff;
 }
 
 .form-3gdLxP {
     background-color: var(--background-primary);
 }
 
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.buttons-uaqb-5>button>div {
-    background-color: #8c00ff;
-    border-radius: 10px;
-}
-
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(3)>button>div {
-    background-color: #8c00ff;
-    border-radius: 10px;
-}
-
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(4)>button>div {
-    background-color: #8c00ff;
-    border-radius: 10px;
-}
-
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(1)>div>button>div {
-    background-color: #8c00ff63;
-    border-radius: 10px;
-}
 
 body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.chat-2ZfjoI > div.content-1jQy2l > main > form > div > div > div > div.attachWrapper-3slhXI > button > div:active) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.attachWrapper-3slhXI>button {
     background-color: #8c00ff;
@@ -353,19 +394,79 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     padding: 100px;
 }
 
-/* ------------------------------------------------------------------- */
+/* & Custom discord top left icon*/
+#app-mount>div.typeWindows-3ILlhq.withFrame-1sEfxu.titleBar-3AIemB.withBackgroundOverride-33VjI9>div {
+    /* padding-bottom: 10px; */
+    top: 14px;
+    left: 10px;
+    background-color: #00a6ff85;
+    border-bottom-right-radius: 10px;
+}
 
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6)>div>a>div,
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(7)>div>a>div,
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(8)>div>a>div,
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(9)>div>a>div,
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(10)>div>a>div,
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(11)>div>a>div,
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(12)>div>a>div,
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(13)>div>a>div,
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(14)>div>a>div,
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(15)>div>a>div {
-    background-color: #4c00ff86;
+/* This one is for the title buttons in the top right including the element below*/
+#app-mount>div.typeWindows-3ILlhq.withFrame-1sEfxu.titleBar-3AIemB.withBackgroundOverride-33VjI9>div:nth-child(3),
+#app-mount>div.typeWindows-3ILlhq.withFrame-1sEfxu.titleBar-3AIemB.withBackgroundOverride-33VjI9>div:nth-child(2) {
+    border-bottom-right-radius: 00px;
+    top: -6px;
+    left: 0px;
+}
+
+#app-mount>div.typeWindows-3ILlhq.withFrame-1sEfxu.titleBar-3AIemB.withBackgroundOverride-33VjI9>div:nth-child(4) {
+    top: -6px;
+    left: 0px;
+    background-color: #00a6ff85;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+}
+
+/* The color of the "Find or start a conversation with line down the side" */
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav {
+    /* background-color: #4c00ff86; */
+    padding-left: 10px;
+    background-color: #ffaa00;
+}
+
+#app-mount:not(:hover) {
+    animation-delay: 0.4s;
+    animation: moveOutOfScreen 1s forwards 1, screenMAKE 4s 1s infinite;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#app-mount:hover {
+    animation: moveToScreen 1s forwards;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+#app-mount {
+    transform-style: preserve-3d;
+    box-shadow: 20px 20px 20px rgba(255, 0, 0, 0.782);
+    animation: screenMAKE 5s infinite;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition: transform 0.5s;
+    /* transform: perspective(10000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-200px); */
+    transform-style: preserve-3d;
+}
+
+#app-mount>div {
+    height: calc(2% - 6px);
+    width: calc(100% - 6px);
+}
+
+#app-mount {
+    padding-left: 10px;
+    padding-top: 16px;
+    background-color: #ffaa00;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div>div>div>div>div>div>div {
+    padding-top: 10px;
+    background-color: #ffaa00;
+    border-top-left-radius: 10px;
 }
 
 #message-username-1102815552579305514>span,
@@ -395,14 +496,14 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     background-color: green;
 }
 
-body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(6) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6) {
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(6) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(6)>div {
     animation: shake;
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
-body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(7) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(7) {
+body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(7) > div > a > div > div.avatar-1HDIsL > div > svg > svg > svg) #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(7)>div {
     animation: shake;
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
@@ -449,6 +550,68 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+}
+
+@keyframes moveOutOfScreen {
+
+    0% {
+        transform: perspective(1000%) rotateX(5deg) rotateY(4deg) translateZ(-200px) translateY(-200px) translateX(0);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-200px) translateX(0);
+    }
+}
+
+@keyframes moveToScreen {
+
+    0% {
+        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-200px) translateX(0);
+    }
+
+    5% {
+        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-250px) translateX(0);
+    }
+
+    100% {
+        transform: perspective(1000%) rotateX(5deg) rotateY(4deg) translateZ(-200px) translateY(-200px) translateX(0);
+    }
+}
+
+@keyframes screenMAKE {
+
+    0%,
+    100% {
+        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-200px) translateX(0);
+    }
+
+    12.5% {
+        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-250px) translateX(50px);
+    }
+
+    25% {
+        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-200px) translateX(100px);
+    }
+
+    37.5% {
+        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-150px) translateX(50px);
+    }
+
+    50% {
+        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-200px) translateX(0);
+    }
+
+    62.5% {
+        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-250px) translateX(-50px);
+    }
+
+    75% {
+        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-200px) translateX(-100px);
+    }
+
+    87.5% {
+        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-150px) translateX(-50px);
+    }
 }
 
 @keyframes shake {
