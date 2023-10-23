@@ -394,6 +394,37 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     padding: 100px;
 }
 
+/* body {
+    background:
+        linear-gradient(90deg, transparent 50%, rgba(255, 0, 191, 0.6) 50%),
+        linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 145, 0, 0.6)),
+        linear-gradient(0deg, transparent 50%, rgba(0, 0, 0, 0.6) 50%);
+
+    background-size: 100px 100px;
+} */
+
+body::before, body::after {
+    background-image: url('https://i.ibb.co/KGSyhR9/image-12.png');
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    display: block;
+    position: absolute;
+    transform-origin: center center;
+    transform-style: preserve-3d;
+}
+
+body {
+    background:
+        repeating-linear-gradient(0deg, transparent, transparent 15px, rgb(123, 28, 28, 0.8) 95px, rgb(0, 0, 0) 100px),
+        repeating-linear-gradient(45deg, transparent, transparent 15px, rgba(123, 28, 28, 0.8) 95px, rgb(0, 0, 0) 100px);
+}
+
+
 /* & Custom discord top left icon*/
 #app-mount>div.typeWindows-3ILlhq.withFrame-1sEfxu.titleBar-3AIemB.withBackgroundOverride-33VjI9>div {
     /* padding-bottom: 10px; */
@@ -427,13 +458,14 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
 }
 
 #app-mount:not(:hover) {
-    animation-delay: 0.4s;
+    animation-delay: 0.9s;
     animation: moveOutOfScreen 1s forwards 1, screenMAKE 4s 1s infinite;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
 #app-mount:hover {
+    z-index: 1000;
     animation: moveToScreen 1s forwards;
     animation-duration: 0.2s;
     animation-timing-function: linear;
@@ -441,6 +473,8 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
 }
 
 #app-mount {
+    /* top: 100px;
+    left: 20px; */
     transform-style: preserve-3d;
     box-shadow: 20px 20px 20px rgba(255, 0, 0, 0.782);
     animation: screenMAKE 5s infinite;
@@ -553,66 +587,88 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
 }
 
 @keyframes moveOutOfScreen {
-
     0% {
-        transform: perspective(1000%) rotateX(5deg) rotateY(4deg) translateZ(-200px) translateY(-200px) translateX(0);
+        transform: perspective(2000%) rotateX(4deg) rotateY(4deg) translateX(0) translateY(00px) translateZ(-600px);
     }
-
+    20% {
+        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(0) translateY(-140px) translateZ(-6000px);
+    }
     100% {
-        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-200px) translateX(0);
+        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(0) translateY(-35px) translateZ(-630px);
     }
 }
 
 @keyframes moveToScreen {
 
     0% {
-        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-200px) translateX(0);
+        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(0) translateY(-200px) translateZ(-600px);
     }
 
     5% {
-        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-250px) translateX(0);
+        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(0) translateY(-200px) translateZ(-600px);
     }
 
     100% {
-        transform: perspective(1000%) rotateX(5deg) rotateY(4deg) translateZ(-200px) translateY(-200px) translateX(0);
+        transform: perspective(2000%) rotateX(5deg) rotateY(4deg) translateX(0) translateY(-200px) translateZ(-200px);
     }
 }
+
+/* & || X || Moves the element left and right (adding negative will move it to the left and positive will move it to the right)*/
+/* & || Y || Moves the element up and down (adding negative will move it up and positive will move it down)*/
+/* & || Z || Moves the element forward and backwards (adding negative will move it farther and positive will move it closer)*/
 
 @keyframes screenMAKE {
 
     0%,
     100% {
-        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-200px) translateX(0);
+        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(0) translateY(-200px) translateZ(-600px);
+        top: 100px;
+        left: 20px;
     }
 
     12.5% {
-        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-250px) translateX(50px);
+        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(50px) translateY(-250px) translateZ(-600px);
+        top: 100px;
+        left: 20px;
     }
 
     25% {
-        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-200px) translateX(100px);
+        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(100px) translateY(-200px) translateZ(-600px);
+        top: 100px;
+        left: 20px;
     }
 
     37.5% {
-        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-150px) translateX(50px);
+        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(50px) translateY(-150px) translateZ(-600px);
+        top: 100px;
+        left: 20px;
     }
 
     50% {
-        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-200px) translateX(0);
+        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(0) translateY(-200px) translateZ(-600px);
+        top: 100px;
+        left: 20px;
     }
 
     62.5% {
-        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-250px) translateX(-50px);
+        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(-50px) translateY(-250px) translateZ(-600px);
+        top: 100px;
+        left: 20px;
     }
 
     75% {
-        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-200px) translateX(-100px);
+        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(-100px) translateY(-200px) translateZ(-600px);
+        top: 100px;
+        left: 20px;
     }
 
     87.5% {
-        transform: perspective(1000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-150px) translateX(-50px);
+        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(-50px) translateY(-150px) translateZ(-600px);
+        top: 100px;
+        left: 20px;
     }
 }
+
 
 @keyframes shake {
     0% {
