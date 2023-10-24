@@ -327,7 +327,7 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
 #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div:nth-child(4)>div.layer-fP3xEz>div>div>div>div>div>div.userProfileModalOverlayBackground-2dAaBg.overlayBackground-2aa7wt>div>div.listScroller-entkMk.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG {
     padding: 10px;
     overflow-y: auto;
-    max-height: 100vh;
+    max-height: 43.2vh;
 }
 
 #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div:nth-child(4)>div.layer-fP3xEz>div>div>div>div {
@@ -439,6 +439,8 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     background-size: 100px 100px;
 } */
 
+
+
 body::before,
 body::after {
     background-image: url('https://i.ibb.co/KGSyhR9/image-12.png');
@@ -496,7 +498,7 @@ body {
 
 #app-mount:not(:hover) {
     animation-delay: 0.9s;
-    animation: moveOutOfScreen 0.5s forwards 1, screenMAKE 15s 0.5s infinite;
+    animation: moveOutOfScreen 0.5s forwards 1, screenMAKE 35s 0.5s infinite;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
@@ -619,28 +621,26 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
 /* & || Z || Moves the element forward and backwards (adding negative will move it farther and positive will move it closer)*/
 
 @keyframes screenMAKE {
-
-    0%,
-    100% {
+    0%, 100% {
         transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(0) translateY(-200px) translateZ(-600px);
         top: 100px;
         left: 120px;
     }
 
     12.5% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(50px) translateY(-250px) translateZ(-600px);
+        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(100px) translateY(-300px) translateZ(-650px);
         top: 100px;
         left: 120px;
     }
 
     25% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(100px) translateY(-200px) translateZ(-600px);
+        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(200px) translateY(-200px) translateZ(-600px);
         top: 100px;
         left: 120px;
     }
 
     37.5% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(50px) translateY(-150px) translateZ(-600px);
+        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(100px) translateY(-100px) translateZ(-550px);
         top: 100px;
         left: 120px;
     }
@@ -652,23 +652,24 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     }
 
     62.5% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(-50px) translateY(-250px) translateZ(-600px);
+        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(-100px) translateY(-300px) translateZ(-650px);
         top: 100px;
         left: 120px;
     }
 
     75% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(-100px) translateY(-200px) translateZ(-600px);
+        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(-200px) translateY(-200px) translateZ(-600px);
         top: 100px;
         left: 120px;
     }
 
     87.5% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(-50px) translateY(-150px) translateZ(-600px);
+        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(-100px) translateY(-100px) translateZ(-550px);
         top: 100px;
         left: 120px;
     }
 }
+
 
 
 @keyframes shake {
