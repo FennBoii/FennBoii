@@ -39,3 +39,9 @@ Thanks for reading this little **about me**, I've got a lot to work on but I'm a
 <!-- V0. This was a little about me, ive got quite a passion for computer science and everything within it. Im learning everyday willingly and ive probably touched a little bit of every part of the spectrum of the **computer science** field.
 
 <h5>Anyway, Thanks for talking the time to read this and i hope you have a good **morning**.</h5> -->
+
+<hr />
+
+- Included files
+
+    custom.css - custom css for discord with <a href="https://betterdiscord.app/" target="_blank" rel="noopener noreferrer">BetterDiscord</a>
