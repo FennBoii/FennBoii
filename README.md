@@ -44,4 +44,4 @@ Thanks for reading this little **about me**, I've got a lot to work on but I'm a
 
 - Included files
 
-    custom.css - custom css for discord with [BetterDiscord] (https://betterdiscord.app/).
+    custom.css - custom css for discord with [BetterDiscord](https://betterdiscord.app/).
