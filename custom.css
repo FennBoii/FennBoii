@@ -84,27 +84,29 @@ div.customStatus-1KW6v {
 
 /* ------------------------------------------------------------------- */
 
-.userTagUsernameBase-267ALn::after {
+/* -- */
+.userTagUsernameBase__75fb1::after {
     color: white;
     content: " //";
 }
 
-/* Jump to present bar background color */
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>div.messagesWrapper-RpOMA3.group-spacing-0>div.jumpToPresentBar-1cEnH0.barBase-3xxDXu {
+/* Jump to present bar background color --*/
+.jumpToPresentBar__0ff7f.barBase__4e0ba {
     background-color: rgb(0, 170, 255);
 }
 
-/* Below the send messages portion */
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form {
+/* Below the send messages portion --*/
+.form__13a2c {
     background-color: rgba(78, 211, 255, 0.359);
 }
 
-.form-3qe0Ni:before {
+/* -- */
+.form__13a2c:before {
     display: none;
 }
 
-/* Creates the rainbow name template for the element below */
-.userTagUsernameBase-267ALn {
+/* Creates the rainbow name template for the element below --*/
+.userTagUsernameBase__75fb1 {
     font: 800 40px Arial;
     /* padding-left: 20px; */
     font-style: italic;
@@ -120,8 +122,8 @@ div.customStatus-1KW6v {
     margin: auto;
 }
 
-/* Loops the rainbow name element for the name with // */
-.discriminator-hnHkyt {
+/* Loops the rainbow name element for the name with // --*/
+.discriminator_a801dd {
     font: 800 40px Arial;
     /* padding-left: 20px; */
     font-style: italic;
@@ -204,8 +206,8 @@ div.customStatus-1KW6v {
     text-shadow: 1.5px 1.5px 1px black;
 }
 
-/* color of the custom status */
-.customStatus-19KW6v {
+/* color of the custom status --*/
+.customStatus_f55604 {
     box-sizing: border-box;
     width: 100%;
     overflow-wrap: break-word;
@@ -216,8 +218,8 @@ div.customStatus-1KW6v {
     position: relative;
 }
 
-/* This is the border and color for the bio of users */
-.markup-eYLPri {
+/* This is the border and color for the bio of users --*/
+.markup_a7e664 {
     background-color: #000000;
     color: #ff0000;
     border-radius: 20px;
@@ -234,12 +236,14 @@ div.customStatus-1KW6v {
     color: yellow;
 } */
 
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil {
+/* -- */
+.textArea__74543.textAreaSlate_e0e383.slateContainer_b692b3 {
     color: #00ff40;
     left: auto;
 }
 
-body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.chat-2ZfjoI > div.content-1jQy2l > main > form > div > div > div > div.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil:hover) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil>div>div.placeholder-1rCBhr.slateTextArea-27tjG0.fontSize16Padding-XoMpjI {
+/* ??? */
+body:has(.textArea__74543:hover) .placeholder_e68c63AX {
     animation: turnToBlueAndBack;
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
@@ -253,17 +257,19 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     }
 }
 
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil>div>div.markup-eYLPri.editor-H2NA06.slateTextArea-27tjG0.fontSize16Padding-XoMpjI {
+/* -- */
+.placeholder_e68c63 {
     color: #9900ff;
     position: relative;
 }
 
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil>div>div.markup-eYLPri.editor-H2NA06.slateTextArea-27tjG0.fontSize16Padding-XoMpjI::before {
+/* -- */
+.placeholder_e68c63::before {
     color: #00ffaa;
 }
 
-/* background for your messages to people */
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>div.messagesWrapper-RpOMA3.group-spacing-0 {
+/* background for your messages to people --*/
+.messagesWrapper_ea2b0b {
     background-color: #0084ff79;
     /* border-radius: 20px; */
     left: 1px;
@@ -291,43 +297,54 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     content: " ←|";
 } */
 
-.username-h_Y3Us::after {
+/* -- */
+.username_d30d99::after {
     color: #0084ff;
     background-color: #000000;
     content: " |←";
 }
 
-.username-h_Y3Us::before {
+/* -- */
+.username_d30d99::before {
     color: #0084ff;
     background-color: #000000;
     content: "→| ";
 }
 
 /* Behind the names in messages */
-.header-2jRmjb {
+.header_c65767 {
     background-color: #ff00ffbf;
     border-radius: 10px;
 }
 
+/* -- */
 /* ^ Height of the Chat input */
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div {
+.channelTextArea__2e60f {
     height: 25px;
 }
 
 
-
-#app-mount > div.appAsidePanelWrapper-VeklAl > div.notAppAsidePanel-1yXaPq > div:nth-child(4) > div.layer-fP3xEz > div > div > div > div > div > div.userProfileModalOverlayBackground-2dAaBg.overlayBackground-2aa7wt > div > div.listScroller-entkMk.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG
-{
+/* -- */
+.scroller__4b984 {
     height: auto;
     align-items: stretch;
-    height: 40vh;
     height: fit-content;
 }
 
 #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div:nth-child(4)>div.layer-fP3xEz>div>div>div>div>div>div.userProfileModalOverlayBackground-2dAaBg.overlayBackground-2aa7wt>div>div.listScroller-entkMk.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG {
     padding: 10px;
-    overflow-y: auto;
-    max-height: 43.2vh;
+    /* overflow-y: auto; */
+    max-height: 43vh;
+    /* padding-bottom: 20px; */
+    background-color: #e100ff68;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div:nth-child(4)>div.layer-fP3xEz>div>div>div>div>div>div.userProfileModalOverlayBackground-2dAaBg.overlayBackground-2aa7wt>div {
+    background-color: #c800ff79;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div:nth-child(4)>div.layer-fP3xEz>div>div>div {
+    background-color: #c800ff;
 }
 
 #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div:nth-child(4)>div.layer-fP3xEz>div>div>div>div {
@@ -382,34 +399,38 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
 
 
 /* ^ Buttons of Gift Discord, GIF, Sticker, and Emote */
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5 {
+.buttons_ce5b56 {
     /* background-color: #0084ff; */
     padding-right: 10px;
     left: 10px;
 }
 
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>button {
+.buttons_ce5b56>button {
     transition: 0.3s;
     background-color: #0084ff79;
     border-radius: 10px;
 }
 
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>button:hover {
+.buttons_ce5b56>button:hover {
     background-color: #0f00dde8;
 }
 
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>button:active {
+.buttons_ce5b56>button:active {
     background-color: #8c00ff;
 }
 
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(n+1) {
+div.expression-picker-chat-input-button:nth-child(n+2) {
     transition: 0.3s;
     background-color: #0084ff79;
     border-radius: 10px;
 }
 
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.buttons-uaqb-5>div:nth-child(n+1):hover {
+div.expression-picker-chat-input-button:nth-child(n+2):hover {
     background-color: #0f00dde8;
+}
+
+div.expression-picker-chat-input-button:nth-child(n+2):active {
+    background-color: #8c00ff;
 }
 
 .form-3gdLxP {
@@ -558,17 +579,17 @@ body:has(#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>
     animation-iteration-count: 1;
 }
 
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul {
+ul.content__23cab {
     height: 20px;
 }
 
-/* Selection Hover Color */
-body:has(#app-mount > div.appAsidePanelWrapper-VeklAl > div.notAppAsidePanel-1yXaPq > div.app-1BipOi > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(6) > div) .interactiveSelected-29CP8y {
+/* Selection Hover Color --*/
+body:has(li.channel_c21703:nth-child(2) > div) .interactiveSelected_ec846b {
     background-color: rgb(0, 204, 255);
 }
 
-/* Select top DM color */
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>section>div>div.children-3xh0VB>div.titleWrapper-24Kyzc>h1 {
+/* Select top DM color --*/
+h1.defaultColor__77578 {
     color: #d0ff00;
 }
 
@@ -621,7 +642,9 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
 /* & || Z || Moves the element forward and backwards (adding negative will move it farther and positive will move it closer)*/
 
 @keyframes screenMAKE {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(0) translateY(-200px) translateZ(-600px);
         top: 100px;
         left: 120px;
@@ -787,11 +810,11 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     height: fit-content;
 }
 
-body:has(#app-mount > div.appAsidePanelWrapper-VeklAl > div.notAppAsidePanel-1yXaPq > div.app-1BipOi > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(n+2)> div > div) #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(n+2)>div:active {
+body:has(li.channel_c21703:nth-child(n+2)> div > div) li.channel_c21703:nth-child(n+2)>div:active {
     background-color: rgb(255, 247, 7);
 }
 
-body:has(#app-mount > div.appAsidePanelWrapper-VeklAl > div.notAppAsidePanel-1yXaPq > div.app-1BipOi > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(n+2)> div > div) #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(n+2)>div>div:active {
+body:has(li.channel_c21703:nth-child(n+2)> div > div) li.channel_c21703:nth-child(n+2)>div>div:active {
     transition: 3s all;
     background-color: rgb(255, 0, 0);
     border-width: 200px;
@@ -799,19 +822,19 @@ body:has(#app-mount > div.appAsidePanelWrapper-VeklAl > div.notAppAsidePanel-1yX
     margin-top: auto;
 }
 
-body:has(#app-mount > div.appAsidePanelWrapper-VeklAl > div.notAppAsidePanel-1yXaPq > div.app-1BipOi > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(n+2)> div) #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(n+2)>div:hover {
+body:has(li.channel_c21703:nth-child(n+2)>div) li.channel_c21703:nth-child(n+2)>div:hover {
     background-color: #ff00d0;
 }
 
 /* This element is the hover for top DM */
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(n+2)>div {
+li.channel_c21703:nth-child(n+2)>div {
     transition: 0.3s all;
     background-color: rgb(32, 32, 32);
     color: #0084ff;
     border: 5px solid;
 }
 
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(n+2)>div:active {
+li.channel_c21703:nth-child(n+2):active {
     transition: 0.3s all;
     background-color: rgb(166, 255, 0);
     color: #000000;
@@ -819,7 +842,7 @@ body:has(#app-mount > div.appAsidePanelWrapper-VeklAl > div.notAppAsidePanel-1yX
 }
 
 /* This element is for the top DM padding size */
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(n+2) {
+li.channel_c21703:nth-child(n+2) {
     transition: 0.3s all;
     border: 4px solid;
     border-radius: 10px;
@@ -827,13 +850,13 @@ body:has(#app-mount > div.appAsidePanelWrapper-VeklAl > div.notAppAsidePanel-1yX
     padding: 5px;
 }
 
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(n+2):active {
+li.channel_c21703:nth-child(n+2):active {
     transition: 0.1s all;
     border: 4px solid;
     background-color: #ff00ff;
 }
 
-#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div>nav>div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG>ul>li:nth-child(n+2):active {
+li.channel_c21703:nth-child(n+2):active {
     border: 4px solid;
     color: #ff0000;
     padding: 5px;
