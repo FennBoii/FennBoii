@@ -218,16 +218,16 @@ div.customStatus-1KW6v {
     position: relative;
 }
 
-/* This is the border and color for the bio of users --*/
+/* This is the border and color for the chat of messages --*/
 .markup_a7e664 {
     background-color: #000000;
     color: #ff0000;
     border-radius: 20px;
+    border-color: #8c00ff;
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 10px;
-    border-color: #8c00ff;
     font-weight: 900;
 }
 
@@ -258,12 +258,6 @@ body:has(.textArea__74543:hover) .placeholder_e68c63AX {
 }
 
 /* -- */
-.placeholder_e68c63 {
-    color: #9900ff;
-    position: relative;
-}
-
-/* -- */
 .placeholder_e68c63::before {
     color: #00ffaa;
 }
@@ -272,7 +266,6 @@ body:has(.textArea__74543:hover) .placeholder_e68c63AX {
 .messagesWrapper_ea2b0b {
     background-color: #0084ff79;
     /* border-radius: 20px; */
-    left: 1px;
 }
 
 .username-h_Y3Us {
@@ -282,32 +275,26 @@ body:has(.textArea__74543:hover) .placeholder_e68c63AX {
     padding-inline: 10px;
 }
 
-/* The "-" That goes in-between name and text and the one below this one*/
 #chat-messages {
-    background-color: #0084ff;
+    background-color: #80ff00;
     /* background-color: #0084ff8c; */
 }
-
-/* ??? Wish this time element worked */
-/* .separator-AebOhG
-{
-    color: black;
-    border-color: #00ff40;
-    border-width: 20px;
-    content: " ←|";
-} */
 
 /* -- */
 .username_d30d99::after {
     color: #0084ff;
     background-color: #000000;
     content: " |←";
+    padding-right: 5px;
+    border: 0px solid #000;
+    /* padding-left: 5px; */
+    border-radius: 20px;
 }
 
 /* -- */
 .username_d30d99::before {
     color: #0084ff;
-    background-color: #000000;
+    background-color: #000;
     content: "→| ";
 }
 
@@ -317,19 +304,102 @@ body:has(.textArea__74543:hover) .placeholder_e68c63AX {
     border-radius: 10px;
 }
 
+
+
+
+
+
+.textArea__74543 {
+    width: 100vw;
+    height: 100%;
+    background-color: #00a6ff85;
+}
+
+.placeholder_e68c63 {
+    font-size: 0px;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.editor__66464 {
+    background-color: #0084ff79;
+    height: fit-content;
+    border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
 /* -- */
 /* ^ Height of the Chat input */
 .channelTextArea__2e60f {
-    height: 25px;
+    height: 35px;
 }
-
 
 /* -- */
-.scroller__4b984 {
-    height: auto;
-    align-items: stretch;
-    height: fit-content;
+.root_ba16f0 {
+    height: max-content;
 }
+
+.listScroller__92e1a thin_b1c063 scrollerBase_dc3aa9 fade_ba0fa0 {
+    height: max-content;
+}
+
+.userProfileModalOuter__3fe6b {
+    height: 90vh;
+}
+
+.userProfileModalOverlayBackground__52d65 {
+    height: 90vh;
+}
+
+.body_ea740e {
+    /* height: 100vh; */
+    /* padding-top: 10vh; */
+    /* position: relative; */
+    flex: 0 1 auto;
+}
+
+.username_d30d99 {
+    color: #0084ff;
+    background-color: #000000;
+}
+
+/* The "-" That goes in-between name and text and the one below this one*/
+.headerText_f47574 {
+    content: " -->";
+    line-height: 1.4em;
+    font-size: 20px;
+    display: inline-block;
+    border: 2px solid #000;
+    font-size: 21px;
+    white-space: nowrap;
+    transform: translateY(16.5px);
+    /* transform: translateY(15px); */
+    width: 100px;
+    /* Set the width of your rectangle */
+    height: 8px;
+    /* Set the height of your rectangle */
+}
+
+.headerText_f47574::after {
+    /* content: " -->"; */
+    font-size: 20px;
+    font-size: 16px;
+    /* left: 2000px; */
+    transform: scaleX(20000px);
+    white-space: nowrap;
+    width: 100px;
+    /* Set the width of your rectangle */
+    height: 1px;
+    /* Set the height of your rectangle */
+}
+
 
 #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div:nth-child(4)>div.layer-fP3xEz>div>div>div>div>div>div.userProfileModalOverlayBackground-2dAaBg.overlayBackground-2aa7wt>div>div.listScroller-entkMk.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG {
     padding: 10px;
@@ -351,12 +421,6 @@ body:has(.textArea__74543:hover) .placeholder_e68c63AX {
     top: -5px;
 }
 
-
-/* #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div:nth-child(4)>div.layer-fP3xEz>div>div>div>div>div {
-    width: 90px;
-    height: 900px;
-} */
-
 #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div:nth-child(4)>div.layer-fP3xEz>div>div>div>div>div>div>div>div> {
     top: -10px;
     width: fit-content;
@@ -366,14 +430,6 @@ body:has(.textArea__74543:hover) .placeholder_e68c63AX {
     width: fit-content;
     height: fit-content;
 }
-
-
-
-
-
-
-
-
 
 #uid_17589 {
     width: 530px;
@@ -397,12 +453,9 @@ body:has(.textArea__74543:hover) .placeholder_e68c63AX {
     height: 800px;
 }
 
-
 /* ^ Buttons of Gift Discord, GIF, Sticker, and Emote */
 .buttons_ce5b56 {
-    /* background-color: #0084ff; */
-    padding-right: 10px;
-    left: 10px;
+    padding-right: 7.5px;
 }
 
 .buttons_ce5b56>button {
@@ -437,7 +490,6 @@ div.expression-picker-chat-input-button:nth-child(n+2):active {
     background-color: var(--background-primary);
 }
 
-
 body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.chat-2ZfjoI > div.content-1jQy2l > main > form > div > div > div > div.attachWrapper-3slhXI > button > div:active) #app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.attachWrapper-3slhXI>button {
     background-color: #8c00ff;
 }
@@ -449,49 +501,6 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     color: #00ff40;
     background-color: #00ff40;
     padding: 100px;
-}
-
-/* body {
-    background:
-        linear-gradient(90deg, transparent 50%, rgba(255, 0, 191, 0.6) 50%),
-        linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 145, 0, 0.6)),
-        linear-gradient(0deg, transparent 50%, rgba(0, 0, 0, 0.6) 50%);
-
-    background-size: 100px 100px;
-} */
-
-
-
-body::before,
-body::after {
-    background-image: url('https://i.ibb.co/KGSyhR9/image-12.png');
-    content: "owo";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    position: fixed;
-    display: block;
-    position: absolute;
-    transform-origin: center center;
-    transform-style: preserve-3d;
-}
-
-body {
-    background:
-        repeating-linear-gradient(0deg, transparent, transparent 15px, rgb(123, 28, 28, 0.8) 95px, rgb(0, 0, 0) 100px),
-        repeating-linear-gradient(45deg, transparent, transparent 15px, rgba(123, 28, 28, 0.8) 95px, rgb(0, 0, 0) 100px);
-}
-
-
-/* & Custom discord top left icon*/
-#app-mount>div.typeWindows-3ILlhq.withFrame-1sEfxu.titleBar-3AIemB.withBackgroundOverride-33VjI9>div {
-    /* padding-bottom: 10px; */
-    top: 14px;
-    left: 10px;
-    background-color: #00a6ff85;
-    border-bottom-right-radius: 10px;
 }
 
 /* This one is for the title buttons in the top right including the element below*/
@@ -532,9 +541,7 @@ body {
     animation-iteration-count: 1;
 }
 
-#app-mount {
-    /* top: 100px;
-    left: 20px; */
+/* #app-mount {
     transform-style: preserve-3d;
     box-shadow: 20px 20px 20px rgba(255, 0, 0, 0.782);
     animation: screenMAKE 5s infinite;
@@ -542,7 +549,6 @@ body {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     transition: transform 0.5s;
-    /* transform: perspective(10000px) rotateX(4deg) rotateY(4deg) translateZ(-600px) translateY(-200px); */
     transform-style: preserve-3d;
 }
 
@@ -561,7 +567,7 @@ body {
     padding-top: 10px;
     background-color: #ffaa00;
     border-top-left-radius: 10px;
-}
+} */
 
 #app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div>div.uploadInput-YH_iku>div {
     background-color: #00ff40;
@@ -607,93 +613,6 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
-
-@keyframes moveOutOfScreen {
-    0% {
-        transform: perspective(2000%) rotateX(4deg) rotateY(4deg) translateX(0) translateY(00px) translateZ(-600px);
-    }
-
-    20% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(0) translateY(-940px) translateZ(-50000px);
-    }
-
-    100% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(0) translateY(-35px) translateZ(-630px);
-    }
-}
-
-@keyframes moveToScreen {
-
-    0% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(0) translateY(-200px) translateZ(-600px);
-    }
-
-    5% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(4deg) translateX(0) translateY(0px) translateZ(-500px);
-    }
-
-    100% {
-        transform: perspective(2000%) rotateX(5deg) rotateY(4deg) translateX(0) translateY(-200px) translateZ(-200px);
-    }
-}
-
-/* & || X || Moves the element left and right (adding negative will move it to the left and positive will move it to the right)*/
-/* & || Y || Moves the element up and down (adding negative will move it up and positive will move it down)*/
-/* & || Z || Moves the element forward and backwards (adding negative will move it farther and positive will move it closer)*/
-
-@keyframes screenMAKE {
-
-    0%,
-    100% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(0) translateY(-200px) translateZ(-600px);
-        top: 100px;
-        left: 120px;
-    }
-
-    12.5% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(100px) translateY(-300px) translateZ(-650px);
-        top: 100px;
-        left: 120px;
-    }
-
-    25% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(200px) translateY(-200px) translateZ(-600px);
-        top: 100px;
-        left: 120px;
-    }
-
-    37.5% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(100px) translateY(-100px) translateZ(-550px);
-        top: 100px;
-        left: 120px;
-    }
-
-    50% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(0) translateY(-200px) translateZ(-600px);
-        top: 100px;
-        left: 120px;
-    }
-
-    62.5% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(-100px) translateY(-300px) translateZ(-650px);
-        top: 100px;
-        left: 120px;
-    }
-
-    75% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(-200px) translateY(-200px) translateZ(-600px);
-        top: 100px;
-        left: 120px;
-    }
-
-    87.5% {
-        transform: perspective(2000px) rotateX(4deg) rotateY(10deg) translateX(-100px) translateY(-100px) translateZ(-550px);
-        top: 100px;
-        left: 120px;
-    }
-}
-
-
 
 @keyframes shake {
     0% {
@@ -802,6 +721,11 @@ body:has(#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yz
     padding-top: 11px;
     border-radius: 3px;
     background-color: #0084ff;
+    height: fit-content;
+}
+
+#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>div.app-1BipOi>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-9g_3Xj>div.content-18rAwf>div>div.chatContainer-2XIz4Y>main>form>div>div>div {
+    inline-size: fit-content;
     height: fit-content;
 }
 
