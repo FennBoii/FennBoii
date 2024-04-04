@@ -65,7 +65,8 @@ div.customStatus-1KW6v {
     overflow: hidden;
 }
 
-#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div:nth-child(3)>div.layer-fP3xEz>div>div>div>div>div.userProfileModalOverlayBackground-2dAaBg.overlayBackground-2aa7wt>div>div.container-3g15px>div:nth-child(3)>div>div, #popout_19 > div > div > div > div > div > div > div.userPopoutOverlayBackground_bf6444.overlayBackground__2666e > div.section__62b44.customStatusSection_c9f9ba > div {
+#app-mount>div.appAsidePanelWrapper-ev4hlp>div.notAppAsidePanel-3yzkgB>div:nth-child(3)>div.layer-fP3xEz>div>div>div>div>div.userProfileModalOverlayBackground-2dAaBg.overlayBackground-2aa7wt>div>div.container-3g15px>div:nth-child(3)>div>div,
+#popout_19>div>div>div>div>div>div>div.userPopoutOverlayBackground_bf6444.overlayBackground__2666e>div.section__62b44.customStatusSection_c9f9ba>div {
     background-color: #00000071;
     border-radius: 10px;
     display: flex;
@@ -81,12 +82,14 @@ div.customStatus-1KW6v {
 
 } */
 
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div:nth-child(4) > div.layer_c14d31 > div > div > div > div > div > div.userProfileModalOverlayBackground__7ec35.overlayBackground__2666e > div > div.container__9f51c > div:nth-child(3) > div, #popout_19 > div > div > div > div > div > div > div.userPopoutOverlayBackground_bf6444.overlayBackground__2666e > div.section__62b44.customStatusSection_c9f9ba > div {
+#app-mount>div.appAsidePanelWrapper__5e6e2>div.notAppAsidePanel__95814>div:nth-child(4)>div.layer_c14d31>div>div>div>div>div>div.userProfileModalOverlayBackground__7ec35.overlayBackground__2666e>div>div.container__9f51c>div:nth-child(3)>div,
+#popout_19>div>div>div>div>div>div>div.userPopoutOverlayBackground_bf6444.overlayBackground__2666e>div.section__62b44.customStatusSection_c9f9ba>div {
     text-align: center;
     position: inherit;
 }
 
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div:nth-child(4) > div.layer_c14d31 > div > div > div > div > div > div.userProfileModalOverlayBackground__7ec35.overlayBackground__2666e > div > div.container__9f51c > div:nth-child(3) > div, #popout_19 > div > div > div > div > div > div > div.userPopoutOverlayBackground_bf6444.overlayBackground__2666e > div.section__62b44.customStatusSection_c9f9ba > div {
+#app-mount>div.appAsidePanelWrapper__5e6e2>div.notAppAsidePanel__95814>div:nth-child(4)>div.layer_c14d31>div>div>div>div>div>div.userProfileModalOverlayBackground__7ec35.overlayBackground__2666e>div>div.container__9f51c>div:nth-child(3)>div,
+#popout_19>div>div>div>div>div>div>div.userPopoutOverlayBackground_bf6444.overlayBackground__2666e>div.section__62b44.customStatusSection_c9f9ba>div {
     background-color: #000000;
     border-radius: 20px;
     z-index: 1;
@@ -101,33 +104,42 @@ div.customStatus-1KW6v {
     z-index: 0;
 } */
 
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div:nth-child(4) > div.layer_c14d31 > div > div > div > div > div > div.userProfileModalOverlayBackground__7ec35.overlayBackground__2666e > div > div.container__9f51c > div:nth-child(3) > div > div::after {
-    content: "↓"; /* The arrow symbol */
+#popout_26>div>div>div>div>div>div>div.userPopoutOverlayBackground_bf6444.overlayBackground__2666e>div.section__62b44.container__1c2eb.usernameSection_dd6196>div>div.clickTarget__90fb4>div>div.childWrapper__70f9d>div>h2:after {
+    content: "↓";
+    /* The arrow symbol */
     padding-top: 10px;
+    text-align: center;
+    color: #00ff40;
     position: absolute;
     top: 0;
     right: -20;
     transform-origin: bottom right;
     animation: moveArrow 3s linear infinite;
-    width: 20px; /* Adjust the size of the arrow */
-    height: 20px; /* Adjust the size of the arrow */
+    width: 20px;
+    /* Adjust the size of the arrow */
+    height: 20px;
+    /* Adjust the size of the arrow */
     box-shadow: 0 0 0 4px rgba(0, 0, 255, 0.2);
     z-index: 0;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-#popout_19 > div > div > div > div > div > div > div.userPopoutOverlayBackground_bf6444.overlayBackground__2666e > div.section__62b44.customStatusSection_c9f9ba > div::after {
-    content: "↓"; /* The arrow symbol */
+#app-mount>div.appAsidePanelWrapper__5e6e2>div.notAppAsidePanel__95814>div:nth-child(4)>div.layer_c14d31>div>div>div>div>div>div>div>div.container__9f51c>div:nth-child(1)>div.defaultColor__30336.text-lg-semibold__9539a::after {
+    content: "↓";
+    /* The arrow symbol */
     padding-top: 10px;
+    text-align: center;
+    color: #00ff40;
     position: absolute;
     top: 0;
-    right: -20;
+    right: -10;
     transform-origin: bottom right;
     animation: moveArrowStatus 3s linear infinite;
-    width: 20px; /* Adjust the size of the arrow */
-    height: 20px; /* Adjust the size of the arrow */
-    box-shadow: 0 0 0 4px rgba(0, 0, 255, 0.2);
+    width: 20px;
+    /* Adjust the size of the arrow */
+    height: 20px;
+    /* Adjust the size of the arrow */
     z-index: 0;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -135,32 +147,82 @@ div.customStatus-1KW6v {
 
 @keyframes moveArrowStatus {
     0% {
-        transform: translateX(1200%) translateY(0px) rotate(90deg);
+        transform: translateX(2200%) translateY(0px) rotate(90deg);
+        box-shadow: 4px 2px 10px 10px rgba(0, 115, 255, 0.8);
     }
+
+    14% {
+        box-shadow: 5px 6px 10px 10px rgba(0, 115, 255, 0.8);
+    }
+
+    17% {
+        box-shadow: 3px 7px 10px 10px rgba(0, 115, 255, 0.8);
+    }
+
+    27% {
+        box-shadow: 6px 2px 10px 10px rgba(0, 115, 255, 0.8);
+    }
+
+    34% {
+        box-shadow: 4px 6px 10px 10px rgba(0, 115, 255, 0.8);
+    }
+
+    46% {
+        box-shadow: 2px 3px 10px 10px rgba(0, 115, 255, 0.8);
+    }
+
     50% {
         transform: translateX(-300%) translateY(-20px) rotate(180deg);
+        box-shadow: 0px 1px 7px 7px rgba(0, 115, 255, 0.8);
     }
+
     100% {
         transform: translateX(-300%) translateY(-90px) rotate(180deg);
+        box-shadow: 0px 2px 8px 8px rgba(0, 115, 255, 0.8);
     }
-  }
+}
 
 @keyframes moveArrow {
     0% {
         transform: translateX(1100%) translateY(0px) rotate(90deg);
+        box-shadow: 4px 2px 10px 10px rgba(0, 115, 255, 0.8);
     }
-    50% {
-        transform: translateX(-2600%) translateY(-20px) rotate(180deg);
-    }
-    100% {
-        transform: translateX(-2600%) translateY(-90px) rotate(180deg);
-    }
-  }
 
-  #app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div:nth-child(4) > div.layer_c14d31 > div > div > div > div > div > div.userProfileModalOverlayBackground__7ec35.overlayBackground__2666e {
+    14% {
+        box-shadow: 5px 6px 10px 10px rgba(0, 115, 255, 0.8);
+    }
+
+    17% {
+        box-shadow: 3px 7px 10px 10px rgba(0, 115, 255, 0.8);
+    }
+
+    27% {
+        box-shadow: 6px 2px 10px 10px rgba(0, 115, 255, 0.8);
+    }
+
+    34% {
+        box-shadow: 4px 6px 10px 10px rgba(0, 115, 255, 0.8);
+    }
+
+    46% {
+        box-shadow: 2px 3px 10px 10px rgba(0, 115, 255, 0.8);
+    }
+
+    50% {
+        transform: translateX(-380%) translateY(-20px) rotate(180deg);
+        box-shadow: 0px 1px 7px 7px rgba(0, 115, 255, 0.8);
+    }
+
+    100% {
+        transform: translateX(-380%) translateY(-90px) rotate(180deg);
+        box-shadow: 0px 2px 8px 8px rgba(0, 115, 255, 0.8);
+    }
+}
+
+#app-mount>div.appAsidePanelWrapper__5e6e2>div.notAppAsidePanel__95814>div:nth-child(4)>div.layer_c14d31>div>div>div>div>div>div.userProfileModalOverlayBackground__7ec35.overlayBackground__2666e {
     display: block;
     height: max-content;
-  }
+}
 
 .body-1Ukv50 {
     display: contents;
@@ -414,7 +476,7 @@ body:has(.textArea_a86690:hover) .placeholder_dec8c7 {
 
 
 
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div:nth-child(4) > div.layer_c14d31 > div > div > div > div > div > div.userProfileModalOverlayBackground__7ec35.overlayBackground__2666e > div > div.listScroller__18a19.thin__62e51.scrollerBase__65223.fade__8a426 > div.activityProfileV2_f5335f.userProfileActivity__0988f > div.bodyNormal__77cee.body__3620e > div:nth-child(2) > div {
+#app-mount>div.appAsidePanelWrapper__5e6e2>div.notAppAsidePanel__95814>div:nth-child(4)>div.layer_c14d31>div>div>div>div>div>div.userProfileModalOverlayBackground__7ec35.overlayBackground__2666e>div>div.listScroller__18a19.thin__62e51.scrollerBase__65223.fade__8a426>div.activityProfileV2_f5335f.userProfileActivity__0988f>div.bodyNormal__77cee.body__3620e>div:nth-child(2)>div {
     rotate: 45deg;
     display: flex;
     align-content: center;
@@ -424,14 +486,14 @@ body:has(.textArea_a86690:hover) .placeholder_dec8c7 {
     left: 75%;
 }
 
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div:nth-child(4) > div.layer_c14d31 > div > div > div > div > div > div.userProfileModalOverlayBackground__7ec35.overlayBackground__2666e > div > div.listScroller__18a19.thin__62e51.scrollerBase__65223.fade__8a426 > div.activityProfileV2_f5335f.userProfileActivity__0988f > div.bodyNormal__77cee.body__3620e > div:nth-child(2) > div > button:nth-child(1) {
+#app-mount>div.appAsidePanelWrapper__5e6e2>div.notAppAsidePanel__95814>div:nth-child(4)>div.layer_c14d31>div>div>div>div>div>div.userProfileModalOverlayBackground__7ec35.overlayBackground__2666e>div>div.listScroller__18a19.thin__62e51.scrollerBase__65223.fade__8a426>div.activityProfileV2_f5335f.userProfileActivity__0988f>div.bodyNormal__77cee.body__3620e>div:nth-child(2)>div>button:nth-child(1) {
     position: absolute;
     top: -24px;
     align-content: center;
     flex-wrap: wrap;
 }
 
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div:nth-child(4) > div.layer_c14d31 > div > div > div > div > div > div.userProfileModalOverlayBackground__7ec35.overlayBackground__2666e > div > div.listScroller__18a19.thin__62e51.scrollerBase__65223.fade__8a426 > div.activityProfileV2_f5335f.userProfileActivity__0988f > div.bodyNormal__77cee.body__3620e > div:nth-child(2) > div > button:nth-child(2) {
+#app-mount>div.appAsidePanelWrapper__5e6e2>div.notAppAsidePanel__95814>div:nth-child(4)>div.layer_c14d31>div>div>div>div>div>div.userProfileModalOverlayBackground__7ec35.overlayBackground__2666e>div>div.listScroller__18a19.thin__62e51.scrollerBase__65223.fade__8a426>div.activityProfileV2_f5335f.userProfileActivity__0988f>div.bodyNormal__77cee.body__3620e>div:nth-child(2)>div>button:nth-child(2) {
     position: absolute;
     top: 9px;
 }
@@ -649,7 +711,7 @@ body:has(#app-mount>div.appAsidePanelWrapper-VeklAl>div.notAppAsidePanel-1yXaPq>
 }
 
 
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.sidebar_e031be > nav > div.searchBar__621ec::after {
+#app-mount>div.appAsidePanelWrapper__5e6e2>div.notAppAsidePanel__95814>div.app_b1f720>div>div.layers__1c917.layers_a23c37>div>div>div>div>div.sidebar_e031be>nav>div.searchBar__621ec::after {
     display: flex;
     position: absolute;
     content: "→";
@@ -670,7 +732,7 @@ h1.defaultColor__30336 {
     color: #d0ff00;
 }
 
-body:has(#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.sidebar_e031be > section > div.container_debb33 > div.avatarWrapper__500a6.withTagAsButton_e22174 > div.wrapper__3ed10.avatar_f8541f > svg > foreignObject > div > div) #app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > nav > ul > div.scroller_de945b.none_ff9f86.scrollerBase__65223 > div.tutorialContainer_b06ae6 > div > div.listItemWrapper__3d465>div>svg>foreignObject>div>div {
+body:has(#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.sidebar_e031be > section > div.container_debb33 > div.avatarWrapper__500a6.withTagAsButton_e22174 > div.wrapper__3ed10.avatar_f8541f > svg > foreignObject > div > div) #app-mount>div.appAsidePanelWrapper__5e6e2>div.notAppAsidePanel__95814>div.app_b1f720>div>div.layers__1c917.layers_a23c37>div>div>nav>ul>div.scroller_de945b.none_ff9f86.scrollerBase__65223>div.tutorialContainer_b06ae6>div>div.listItemWrapper__3d465>div>svg>foreignObject>div>div {
     transition: 0.1s ease-in-out;
     width: 90%;
     height: 90%;
@@ -699,27 +761,27 @@ body:has(#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95
     0% {
         transform: translate(1px, 1px) rotate(0deg);
     }
-    
+
     0% {
         background-color: #ff0000;
     }
-    
+
     10% {
         transform: translate(-1px, -2px) rotate(-1deg);
     }
-    
+
     20% {
         transform: translate(-3px, 0px) rotate(1deg);
     }
-    
+
     30% {
         transform: translate(3px, 2px) rotate(0deg);
     }
-    
+
     40% {
         transform: translate(1px, -1px) rotate(1deg);
     }
-    
+
     46% {
         background-color: rgb(240, 178, 50);
     }
