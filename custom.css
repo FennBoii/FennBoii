@@ -519,19 +519,12 @@ userInfoSection_e816c1 {
     height: max-content;
 }
 
-infoScroller__0920a thin__62e51 scrollerBase__65223 fade__8a426 {
-    height: max-content;
+#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div:nth-child(4) > div.layer_c14d31 > div > div > div > div > div > div > div {
+    display: contents;
+    height: 200px;
 }
 
-.listScroller__18a19.thin__62e51.scrollerBase__65223.fade__8a426 {
-    height: max-content;
-}
-
-.userProfileModalOuter_a65559 {
-    height: 90vh;
-}
-
-.userProfileModalOverlayBackground__7ec35 {
+#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div:nth-child(4) > div.layer_c14d31 > div > div > div > div {
     height: 90vh;
 }
 
