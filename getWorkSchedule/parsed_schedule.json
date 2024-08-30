@@ -1,0 +1,62 @@
+[
+  {
+    "date": "08/25",
+    "hours": null,
+    "extra": []
+  },
+  {
+    "date": "08/26",
+    "hours": "8:00a - 4:00p",
+    "extra": [
+      "Hours: 7.00",
+      "Store: 2105",
+      "Job: 306 Food Service.Food Service Clerk"
+    ]
+  },
+  {
+    "date": "08/27",
+    "hours": null,
+    "extra": []
+  },
+  {
+    "date": "08/28",
+    "hours": "7:00a - 3:00p",
+    "extra": [
+      "Hours: 7.00",
+      "Store: 2105",
+      "Job: 306 Food Service.Food Service Clerk"
+    ]
+  },
+  {
+    "date": "08/29",
+    "hours": "10:00a - 4:00p",
+    "extra": [
+      "Hours: 5.00",
+      "Store: 2105",
+      "Job: 306 Food Service.Food Service Clerk"
+    ]
+  },
+  {
+    "date": "08/30",
+    "hours": "8:00a - 4:00p",
+    "extra": [
+      "Hours: 7.00",
+      "Store: 2105",
+      "Job: 306 Food Service.Food Service Clerk"
+    ]
+  },
+  {
+    "date": "08/31",
+    "hours": null,
+    "extra": []
+  },
+  {
+    "date": "09/01",
+    "hours": "3:00p - 10:00p",
+    "extra": [
+      "Hours: 6.00",
+      "Store: 2105",
+      "Job: 306 Food Service.Food Service Clerk"
+    ]
+  }
+]
