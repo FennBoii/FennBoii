@@ -39,7 +39,7 @@ Thanks for glancing.. I dont know. Love or hate me, Ill take it. Gooday to you s
 
 <h5>Anyway, Thanks for talking the time to read this and i hope you have a good **morning**.</h5> -->
 <br />
-<small>yes.. I struggle with self doubt and low self-esteem..</small>
+<h6>yes.. I struggle with self doubt and low self-esteem..</h6>
 
 <hr />
 
