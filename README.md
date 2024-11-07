@@ -38,6 +38,8 @@ Thanks for glancing.. I dont know. Love or hate me, Ill take it. Gooday to you s
 <!-- V0. This was a little about me, ive got quite a passion for computer science and everything within it. Im learning everyday willingly and ive probably touched a little bit of every part of the spectrum of the **computer science** field.
 
 <h5>Anyway, Thanks for talking the time to read this and i hope you have a good **morning**.</h5> -->
+<br />
+<span style="font-size: 0.3em;">yes.. I struggle with self doubt and low self-esteem..</span>
 
 <hr />
 
@@ -45,8 +47,10 @@ Thanks for glancing.. I dont know. Love or hate me, Ill take it. Gooday to you s
 
     custom.css - custom css for discord with <a href="https://betterdiscord.app/" target="_blank" rel="noopener noreferrer">BetterDiscord</a>
 
+    tixatiColorTheme.colors - custom made theme for the tixati client made by yours truly.
+
 - Included Folders
     
-    startLocalStream - this is so start a local stream to local network from nodejs project (run with 'node main.js').
+    startLocalStream - this is to start a local stream to your local network from nodejs project (run with 'node main.js').
 
     getWorkSchedule - using automation, I can get my actual work schedule. Its really handy thats why its here.
