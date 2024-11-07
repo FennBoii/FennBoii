@@ -10,7 +10,7 @@ You can click the Preview link to take a look at your changes.
 --->
 
 <h3>About me</h3>
-Hey, Im Nate, Called FennBoii online. I do things here and there. Im not that cool but I do things, again, here and there.
+Hey, Im Nate, i go by FennBoii online. I do things here and there. Im not that cool but I do things, again, here and there.
 <!-- V1. Hey, I'm FennBoii but I usually go by Fennec and my real name is 'Nathan'. I'm all over the place but I don't bite so if you want me to do anything for you just ask and I'll try my best to help you! I do a lot of hobby stuff and projects on the side involving unity and nodejs mostly. I'm open to talk about anything and open to meeting new people and talking infront if them, i'll be prepared and presentable. -->
 <!-- V0. Hey, I'm FennBoii but I usually go by Fennec and my real name is 'Nathan'. I'm all over the place but I don't bite so if you want me to do anything for you just ask and I'll try my best to help you! I honestly dont have a lot of connections so that makes me some kind of loner without a lover, im also ***Asexual***, Im open to talk about anything though and open to meeting new people and talking infront if them, i wont be scared. -->
 
@@ -39,11 +39,8 @@ Thanks for glancing.. I dont know. Love or hate me, Ill take it. Gooday to you s
 
 <h5>Anyway, Thanks for talking the time to read this and i hope you have a good **morning**.</h5> -->
 <br />
-<<<<<<< HEAD
-<span style="font-size: 0.3em;">yes.. I struggle with self doubt and low self-esteem..</span>
-=======
+
 <h6>yes.. I struggle with self doubt and low self-esteem..</h6>
->>>>>>> d61fb3e42b11da7cf99e411711cb9cf55b7b8a31
 
 <hr />
 
