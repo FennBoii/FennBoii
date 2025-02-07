@@ -46,14 +46,14 @@ Thanks for glancing.. I dont know. Love or hate me, Ill take it. Gooday to you s
 
 - Included files
 
-    custom.css - custom css for discord with <a href="https://betterdiscord.app/" target="_blank" rel="noopener noreferrer">BetterDiscord</a>
+    [custom.css](https://github.com/FennBoii/FennBoii/blob/main/custom.css) - custom css for discord with <a href="https://betterdiscord.app/" target="_blank" rel="noopener noreferrer">BetterDiscord</a>
 
-    tixatiColorTheme.colors - custom made theme for the tixati client made by yours truly.
+    [tixatiColorTheme.colors](https://github.com/FennBoii/FennBoii/blob/main/tixatiColorTheme.colors) - custom made theme for the tixati client made by yours truly.
 
 - Included Folders
     
-    startLocalStream - this is to start a local stream to your local network from nodejs project (run with 'node main.js').
+    [startLocalStream](https://github.com/FennBoii/FennBoii/tree/main/startLocalStream) - this is to start a local stream to your local network from nodejs project (run with 'node main.js').
 
-    getWorkSchedule - using automation, I can get my actual work schedule. Its really handy thats why its here.
+    [getWorkSchedule](https://github.com/FennBoii/FennBoii/tree/main/getWorkSchedule) - using automation, I can get my actual work schedule. Its really handy thats why its here.
 
-    videoConverter - custom made ffmpeg based video converter using nodejs for local conversion (HEAVY ON CPU FOR SOME)
+    [videoConverter](https://github.com/FennBoii/FennBoii/tree/main/videoConverter) - custom made ffmpeg based video converter using nodejs for local conversion (HEAVY ON CPU FOR SOME)
