@@ -55,3 +55,5 @@ Thanks for glancing.. I dont know. Love or hate me, Ill take it. Gooday to you s
     startLocalStream - this is to start a local stream to your local network from nodejs project (run with 'node main.js').
 
     getWorkSchedule - using automation, I can get my actual work schedule. Its really handy thats why its here.
+
+    videoConverter - custom made ffmpeg based video converter using nodejs for local conversion (HEAVY ON CPU FOR SOME)
