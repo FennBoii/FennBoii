@@ -64,6 +64,6 @@ send me a morse message: wss://getname.ytmopdata.net/morsePort</h6>
 
 - Extra notes
 
-    [greatSong]("https://music.youtube.com/watch?v=mekdSR0H4Qs&si=XZQ5o2_cXwSFXlHX") - nightmare - nothing, nowhere
+    [greatSong](https://music.youtube.com/watch?v=mekdSR0H4Qs&si=XZQ5o2_cXwSFXlHX) - nightmare - nothing, nowhere
     
     <h6>I no longer use discord :<</h6>
