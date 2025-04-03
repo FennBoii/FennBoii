@@ -45,7 +45,8 @@ Thanks i guess, this wasnt very cool unlike you but.. thanks. Gooday to you stra
 <h5>Anyway, Thanks for talking the time to read this and i hope you have a good **morning**.</h5> -->
 <br />
 
-<h6>yes.. I struggle with self doubt and low self-esteem..</h6>
+<h6>yes.. I struggle with self doubt and low self-esteem..
+send me a morse message: wss://getname.ytmopdata.net/morsePort</h6>
 
 <hr />
 
