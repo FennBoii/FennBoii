@@ -1,5 +1,8 @@
-<h1>vive pro eye face tracking with opencv AND reVision!</h1>
-
+<h1>vive pro eye tracking with opencv AND reVision!</h1>
+sadly face tracking doesnt exist here BUT you can get babble!: https://babble.diy/
+(might make a script that works with it too and put it here.)
+<br />
+<br />
 reVision github project!: https://github.com/Blue-Doggo/ReVision
 
 THANK YOU BLUE-DOGGO FOR THIS REPO! I COULDN'T HAVE DONE THIS WITHOUT YOU <3
