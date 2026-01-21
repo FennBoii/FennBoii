@@ -83,8 +83,6 @@ Thanks for reading this section. i dont do much but cool to be alive i guess. Li
 
     [tixatiColorTheme.colors](https://github.com/FennBoii/FennBoii/blob/main/tixatiColorTheme.colors) - custom made theme for the tixati client made by yours truly.
 
-    [M5.sh](https://github.com/FennBoii/FennBoii/blob/main/M5.sh) - YT-DLP script to download, organize, save, and rename albums and singles into a folder. custom made and is used DAILY here. you WILL need that extra .sh file in there. put it in your '/usr/bin/' location, this M5 script is actually put in my '~/.bash_aliases' file and then 'source ~/.bash_aliases'.
-
 - Included Folders
     
     [startLocalStream](https://github.com/FennBoii/FennBoii/tree/main/startLocalStream) - this is to start a local stream to your local network from nodejs project (run with 'node main.js').
