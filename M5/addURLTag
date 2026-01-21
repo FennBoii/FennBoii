@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+# ensure jq and eyeD3 are installed, they are very needed
+if ! command -v jq &>/dev/null || ! command -v eyeD3 &>/dev/null; then
+    echo "This script requires both 'jq' and 'eyeD3' to be installed."
+    exit 1
+fi
+
+JSON_FILE="playlist_metadata.json"
+
+if [[ ! -f "$JSON_FILE" ]]; then
+    echo "Error: $JSON_FILE not found in the current directory."
+    exit 1
+fi
+
+# read the config file and add that url tag
+jq -c '.[]' "$JSON_FILE" | while read -r entry; do
+    mp3_file=$(echo "$entry" | jq -r '.file')
+    url=$(echo "$entry" | jq -r '.url')
+
+    if [[ -f "$mp3_file" ]]; then
+        eyeD3 --comment "$url" "$mp3_file" &>/dev/null # adds url as comment
+        echo "Updated $mp3_file with URL comment."
+    else
+        echo "Warning: $mp3_file not found, skipping."
+    fi
+done
+
+echo "All MP3 files updated with the URL in the comment tag using eyeD3!"
