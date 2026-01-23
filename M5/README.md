@@ -30,5 +30,7 @@ IF YOU DO re-download the same album, DELETE THE OLD FOLDER. this script moves t
     └── playlist_metadata.json
 ```
 
-i added an extra script in here that is SUPER helpful! once you run M5 it sometimes DOES put the image in the mp3 or whatever format BUT it seems that the image is in a rectangle or doesnt even fully look square. thats where THIS script comes in! just run: `reCoverImage -t [mp3] [Album -.jpg]` this will take that one image you find and replace ALL in the same folder with that same image. THE IMAGE IS GENERATED IN THE SAME FOLDER THANKS TO yt-dlp. an example image could be named: 
+keep this in mind.
+
+i added an extra script in here that is SUPER helpful! once you run M5 it sometimes DOES put the image in the mp3 or whatever format BUT it seems that the image is in a rectangle or doesnt even fully look square. thats where THIS script comes in! just run: `reCoverImage -t [mp3] [Album -.jpg]` this will take that one image you find and replace ALL of that same type in the same folder with that same image. THE IMAGE IS GENERATED IN THE SAME FOLDER THANKS TO yt-dlp. an example image could be named: 
 `Album - hair.jpg`

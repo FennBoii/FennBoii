@@ -9,7 +9,7 @@ FennBoii/FennBoii is a ✨ special ✨ repository because its `README.md` (this 
 You can click the Preview link to take a look at your changes.
 --->
 
-I know ive been gone a while. I no longer use windows and will start to develop ytmop for linux instead of windows. i know it looks abandoned but know that ill get around to it eventually. right now i have went to private music storage. all music is local, why not do the same oof. YOU NEVER KNOW WHEN YOUR FAVORITE TRACK COULD BE TAKEN DOWN.
+I know ive been gone a while. I no longer use windows and will start to develop ytmop for linux instead of windows. i know it looks abandoned but know that ill get around to it eventually. right now i have went to private music storage. all music is local, why not do the same? YOU NEVER KNOW WHEN YOUR FAVORITE TRACK COULD BE TAKEN DOWN.
 
 <h3>About me</h3>
 hello there stranger. I go by Fenn. this is my "portfolio" of small works that i really dont want getting away. all things here are "gems" to me. feel free to do whatever you'd like with them though.

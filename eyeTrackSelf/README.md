@@ -105,14 +105,41 @@ fun thing to do is to go the local port on your browser and touch the lenses to 
 
 then all you have to do is setup the virtual environment with python3! 
 
-clone this folder. move into it.
+clone this folder. move / cd into it.
+
+create the virtual environment with:
+
+`python3 -m venv venv`
 
 source it by running:
 
 `source venv/bin/activate`
 
-(you will have to source this file EVERY TIME you run these scripts.) <br />
-(dependencies are "python-osc, numpy, and opencv-python")
+awesome! now we install the modules we need! first lets do cv2:
+
+`pip3 install opencv-python`
+
+then next is pythonosc:
+
+`pip3 install python-osc`
+
+now were done! make sure again that reVision is running and then yey it works!
+
+troubleshooting:
+
+if you encounter such:
+
+```
+    if key == ord('q'): break
+       ^^^
+NameError: name 'key' is not defined
+```
+this means it cannot capture eye stream. MAKE SURE you can access the local urls: `http://127.0.0.1:4442/right` or `http://127.0.0.1:4442/left`
+
+
+(you will have to source this file EVERY TIME you run these scripts.) 
+<br />
+(dependencies are "python-osc, and opencv-python")
 
 now simply run those scripts with vrchat open or resonite or whatever your use is. have fun!
 
